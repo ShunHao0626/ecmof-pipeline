@@ -1,0 +1,5083 @@
+[
+  {
+    "MOF_name": "NiCAT@TOW",
+    "molecular_formula": "",
+    "source_paper": "10.1016/j.ijbiomac.2023.127989",
+    "metal_node": {
+      "metal_connector": "Ni(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-Hexahydroxytriphenylene hydrate (HHTP)",
+      "functional_groups": "-OH",
+      "conformation": ""
+    },
+    "topology": "2D hexagonal lattice",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "4.227",
+            "unit": "S·m⁻¹",
+            "conditions": {
+              "concentration": "50%",
+              "form": "membrane"
+            }
+          },
+          {
+            "value": "0.164",
+            "unit": "S·m⁻¹",
+            "conditions": {
+              "concentration": "1%",
+              "form": "membrane"
+            }
+          }
+        ]
+      },
+      {
+        "name": "tensile strength",
+        "values": [
+          {
+            "value": "187.9",
+            "unit": "MPa",
+            "conditions": {
+              "concentration": "50%",
+              "form": "membrane"
+            }
+          }
+        ]
+      },
+      {
+        "name": "water contact angle",
+        "values": [
+          {
+            "value": "131.6",
+            "unit": "°",
+            "conditions": {
+              "concentration": "50%",
+              "form": "membrane"
+            }
+          }
+        ]
+      },
+      {
+        "name": "specific surface area",
+        "values": [
+          {
+            "value": "137.8",
+            "unit": "m²·g⁻¹",
+            "conditions": {
+              "concentration": "50%",
+              "form": "membrane"
+            }
+          }
+        ]
+      },
+      {
+        "name": "specific capacitance",
+        "values": [
+          {
+            "value": "109.9",
+            "unit": "F·g⁻¹",
+            "conditions": {
+              "current density": "0.5 A·g⁻¹"
+            }
+          },
+          {
+            "value": "53.1",
+            "unit": "F·g⁻¹",
+            "conditions": {
+              "current density": "1 A·g⁻¹"
+            }
+          },
+          {
+            "value": "26.0",
+            "unit": "F·g⁻¹",
+            "conditions": {
+              "current density": "2 A·g⁻¹"
+            }
+          },
+          {
+            "value": "18.9",
+            "unit": "F·g⁻¹",
+            "conditions": {
+              "current density": "5 A·g⁻¹"
+            }
+          },
+          {
+            "value": "8.1",
+            "unit": "F·g⁻¹",
+            "conditions": {
+              "current density": "10 A·g⁻¹"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "4.6",
+          "hkl": "(100)",
+          "phase": "MOF"
+        },
+        {
+          "2theta": "9.4",
+          "hkl": "(200)",
+          "phase": "MOF"
+        },
+        {
+          "2theta": "12.5",
+          "hkl": "(210)",
+          "phase": "MOF"
+        },
+        {
+          "2theta": "27.5",
+          "hkl": "(002)",
+          "phase": "MOF"
+        }
+      ],
+      "FTIR": [
+        {
+          "wavenumber": "721",
+          "intensity": "",
+          "assignment": "Ni-O stretching vibration"
+        },
+        {
+          "wavenumber": "1213",
+          "intensity": "",
+          "assignment": "C-O stretching vibration"
+        },
+        {
+          "wavenumber": "1447",
+          "intensity": "",
+          "assignment": "C=C stretching vibration in aromatic ring"
+        },
+        {
+          "wavenumber": "3413",
+          "intensity": "",
+          "assignment": "O-H stretching vibration in aromatic ring"
+        }
+      ],
+      "XPS": [
+        {
+          "element": "Ni 2p",
+          "peak_position": "855.8",
+          "chemical_state": "Ni(II) in NiCAT layer"
+        },
+        {
+          "element": "Ni 2p",
+          "peak_position": "856.2",
+          "chemical_state": "Ni(II) at interface"
+        }
+      ]
+    },
+    "synthesis_method": "Electrostatic force-mediated interfacial growth followed by room-temperature densification",
+    "reaction_conditions": {
+      "sketch": "Hydrothermal process at 85 °C for 24 h",
+      "temperature": "85 °C",
+      "pressure": "10 MPa (for densification)",
+      "solvent": "DMF/water mixture"
+    },
+    "raw_materials": "Ni(NO3)2·6H2O, Ni(CH3COO)2·4H2O, HHTP, TEMPO-oxidized wood (TOW)",
+    "composition_structure": "NiCAT nanolayer on TOW scaffold",
+    "application": "wearable supercapacitors"
+  },
+  {
+    "MOF_name": "CuCAT@TOW",
+    "molecular_formula": "",
+    "source_paper": "10.1016/j.ijbiomac.2023.127989",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-Hexahydroxytriphenylene hydrate (HHTP)",
+      "functional_groups": "-OH",
+      "conformation": ""
+    },
+    "topology": "",
+    "Dimensionality": "",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "1.794",
+            "unit": "S·m⁻¹",
+            "conditions": {
+              "concentration": "50%",
+              "form": "membrane"
+            }
+          },
+          {
+            "value": "0.073",
+            "unit": "S·m⁻¹",
+            "conditions": {
+              "concentration": "1%",
+              "form": "membrane"
+            }
+          }
+        ]
+      },
+      {
+        "name": "tensile strength",
+        "values": [
+          {
+            "value": "186.6",
+            "unit": "MPa",
+            "conditions": {
+              "concentration": "50%",
+              "form": "membrane"
+            }
+          }
+        ]
+      },
+      {
+        "name": "water contact angle",
+        "values": [
+          {
+            "value": "85.5",
+            "unit": "°",
+            "conditions": {
+              "concentration": "50%",
+              "form": "membrane"
+            }
+          }
+        ]
+      },
+      {
+        "name": "specific capacitance",
+        "values": [
+          {
+            "value": "183.9",
+            "unit": "F·g⁻¹",
+            "conditions": {
+              "current density": "0.5 A·g⁻¹"
+            }
+          },
+          {
+            "value": "160.9",
+            "unit": "F·g⁻¹",
+            "conditions": {
+              "current density": "1 A·g⁻¹"
+            }
+          },
+          {
+            "value": "124.3",
+            "unit": "F·g⁻¹",
+            "conditions": {
+              "current density": "2 A·g⁻¹"
+            }
+          },
+          {
+            "value": "69.2",
+            "unit": "F·g⁻¹",
+            "conditions": {
+              "current density": "5 A·g⁻¹"
+            }
+          },
+          {
+            "value": "43.6",
+            "unit": "F·g⁻¹",
+            "conditions": {
+              "current density": "10 A·g⁻¹"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XPS": [
+        {
+          "element": "Cu 2p",
+          "peak_position": "932.4",
+          "chemical_state": "Cu(I)"
+        },
+        {
+          "element": "Cu 2p",
+          "peak_position": "934.4",
+          "chemical_state": "Cu(II)"
+        }
+      ]
+    },
+    "synthesis_method": "Electrostatic force-mediated interfacial growth followed by room-temperature densification",
+    "reaction_conditions": {
+      "sketch": "Hydrothermal process at 85 °C for 24 h",
+      "temperature": "85 °C",
+      "pressure": "10 MPa (for densification)",
+      "solvent": "DMF/water mixture"
+    },
+    "raw_materials": "Cu(NO3)2·3H2O, Cu(OAc)2·H2O, HHTP, TEMPO-oxidized wood (TOW)",
+    "composition_structure": "CuCAT nanolayer on TOW scaffold",
+    "application": "wearable supercapacitors"
+  },
+  {
+    "MOF_name": "ZIF-67",
+    "molecular_formula": "Co(C4H5N2)2",
+    "source_paper": "10.1002/adfm.201707244",
+    "metal_node": {
+      "metal_connector": "Co(II)",
+      "coordination": "tetrahedral",
+      "coordination_geometry": "tetrahedral",
+      "cluster_type": "single metal center",
+      "open_metal_site": "No"
+    },
+    "ligand": {
+      "name": "2-methylimidazole",
+      "functional_groups": "imidazole",
+      "conformation": "linear"
+    },
+    "topology": "sod",
+    "Dimensionality": "3D",
+    "Crystal_system": "cubic",
+    "Space_group": "I-43m",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "unspecified",
+            "unit": "unspecified",
+            "conditions": {
+              "test_method": "unspecified",
+              "temperature": "room temperature"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "7.3, 10.4, 12.7, 14.7, 16.4, 18.0, 22.1, 24.5, 26.7",
+          "hkl": "110, 200, 211, 220, 310, 222, 321, 400, 411",
+          "phase": "MOF"
+        }
+      ],
+      "FTIR": [
+        {
+          "wavenumber": "1595, 1845, 3180",
+          "intensity": "medium",
+          "assignment": "imidazole ring vibrations"
+        }
+      ]
+    },
+    "synthesis_method": "Solution-based growth on H3BTC-modified FTO",
+    "reaction_conditions": {
+      "sketch": "Immersion in Co(NO3)2 and 2-methylimidazole methanol solutions at 25°C for 12 hours",
+      "temperature": "25 °C",
+      "pressure": "ambient",
+      "solvent": "methanol"
+    },
+    "raw_materials": "Co(NO3)2·6H2O, 2-methylimidazole, methanol",
+    "composition_structure": "Co(II) nodes connected by 2-methylimidazole linkers",
+    "application": "Electrocatalyst precursor"
+  },
+  {
+    "MOF_name": "Fe-MIL-88",
+    "molecular_formula": "Fe3O(BDC)3",
+    "source_paper": "10.1002/adfm.201707244",
+    "metal_node": {
+      "metal_connector": "Fe(III)",
+      "coordination": "octahedral",
+      "coordination_geometry": "octahedral",
+      "cluster_type": "trinuclear Fe3-oxo cluster",
+      "open_metal_site": "Yes"
+    },
+    "ligand": {
+      "name": "1,4-benzenedicarboxylic acid (H2BDC)",
+      "functional_groups": "carboxylate",
+      "conformation": "linear"
+    },
+    "topology": "unspecified",
+    "Dimensionality": "3D",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "unspecified",
+            "unit": "unspecified",
+            "conditions": {
+              "test_method": "unspecified",
+              "temperature": "room temperature"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "unspecified",
+          "hkl": "unspecified",
+          "phase": "MOF"
+        }
+      ]
+    },
+    "synthesis_method": "Hydrothermal synthesis",
+    "reaction_conditions": {
+      "sketch": "Reaction of FeCl3 and H2BDC in DMF with acetic acid at 110°C for 24h",
+      "temperature": "110 °C",
+      "pressure": "autogenous",
+      "solvent": "DMF"
+    },
+    "raw_materials": "FeCl3, H2BDC, DMF, acetic acid",
+    "composition_structure": "Fe3-oxo clusters connected by BDC linkers",
+    "application": "Electrocatalyst precursor"
+  },
+  {
+    "MOF_name": "CoSx-(0.2-0.02)",
+    "molecular_formula": "CoSx",
+    "source_paper": "10.1002/adfm.201707244",
+    "metal_node": {
+      "metal_connector": "Co",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "None",
+      "functional_groups": "None",
+      "conformation": "None"
+    },
+    "topology": "amorphous",
+    "Dimensionality": "3D",
+    "Crystal_system": "amorphous",
+    "Space_group": "amorphous",
+    "properties": [
+      {
+        "name": "hydrogen evolution activity",
+        "values": [
+          {
+            "value": "10",
+            "unit": "mA cm-2",
+            "conditions": {
+              "overpotential": "168 mV",
+              "electrolyte": "1M PBS pH 7",
+              "temperature": "room temperature"
+            }
+          },
+          {
+            "value": "50",
+            "unit": "mA cm-2",
+            "conditions": {
+              "overpotential": "282 mV",
+              "electrolyte": "1M PBS pH 7",
+              "temperature": "room temperature"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Tafel slope",
+        "values": [
+          {
+            "value": "76",
+            "unit": "mV dec-1",
+            "conditions": {
+              "electrolyte": "1M PBS pH 7",
+              "temperature": "room temperature"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XPS": [
+        {
+          "element": "Co 2p",
+          "peak_position": "777.8-778.9, 779.07-780.8, 781.5-782.8 eV",
+          "chemical_state": "Co0/Co3+, Co2+, Co-Ox/Co-(OH)y"
+        },
+        {
+          "element": "S 2p",
+          "peak_position": "161.2-163.4 eV",
+          "chemical_state": "S2-, S22-"
+        }
+      ],
+      "Raman": [
+        {
+          "wavenumber": "170, 300",
+          "intensity": "medium",
+          "assignment": "CoS2-like microdomains"
+        }
+      ]
+    },
+    "synthesis_method": "Electrochemical conversion of ZIF-67",
+    "reaction_conditions": {
+      "sketch": "CV cycles (-1.76V to +0.15V vs Ag/AgCl) in 0.5M thiourea + 0.1M KCl at varying scan rates (0.2-0.02 V/s)",
+      "temperature": "room temperature",
+      "pressure": "ambient",
+      "solvent": "aqueous"
+    },
+    "raw_materials": "ZIF-67, thiourea, KCl",
+    "composition_structure": "Amorphous cobalt sulfide with 3D hierarchical porosity",
+    "application": "Hydrogen evolution reaction (HER) electrocatalyst"
+  },
+  {
+    "MOF_name": "Cu-BHT",
+    "molecular_formula": "Cu3C6S6",
+    "source_paper": "10.1002/adfm.202102855",
+    "metal_node": {
+      "metal_connector": "Cu(I)",
+      "coordination": "tetrahedral",
+      "coordination_geometry": "tetrahedral",
+      "cluster_type": "single metal center",
+      "open_metal_site": "Yes (ts-Cu defects)"
+    },
+    "ligand": {
+      "name": "benzenehexathiol (BHT)",
+      "functional_groups": "thiol",
+      "conformation": "planar"
+    },
+    "topology": "2D kagome lattice",
+    "Dimensionality": "2D",
+    "Crystal_system": "triclinic",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "1414",
+            "unit": "S cm-1",
+            "conditions": {
+              "temperature": "room temperature",
+              "test_method": "four-probe method"
+            }
+          }
+        ]
+      },
+      {
+        "name": "H2O2 sensing sensitivity",
+        "values": [
+          {
+            "value": "257",
+            "unit": "μA mM-1 cm-2",
+            "conditions": {
+              "potential": "-0.2 V",
+              "electrolyte": "0.1 M PBS pH 7.4"
+            }
+          }
+        ]
+      },
+      {
+        "name": "H2O2 detection limit",
+        "values": [
+          {
+            "value": "0.08",
+            "unit": "μM",
+            "conditions": {
+              "S/N ratio": "3"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "7.3, 10.4, 12.7, 14.7, 16.4, 18.0, 22.1, 24.5, 26.7",
+          "hkl": "110, 200, 211, 220, 310, 222, 321, 400, 411",
+          "phase": "MOF"
+        }
+      ],
+      "FTIR": [
+        {
+          "wavenumber": "1595, 1845, 3180",
+          "intensity": "medium",
+          "assignment": "imidazole ring vibrations"
+        }
+      ],
+      "XPS": [
+        {
+          "element": "Cu 2p3/2",
+          "peak_position": "931.8, 933.2",
+          "chemical_state": "s-Cu (Cu-BHT structure), ts-Cu (defect sites)"
+        }
+      ]
+    },
+    "synthesis_method": "Gas-liquid interfacial reaction",
+    "reaction_conditions": {
+      "sketch": "BHT in chlorobenzene spread on acidic Cu(NO3)2 aqueous solution",
+      "temperature": "ambient",
+      "pressure": "ambient",
+      "solvent": "chlorobenzene/water",
+      "pH": "1"
+    },
+    "raw_materials": "Cu(NO3)2, benzenehexathiol (BHT), chlorobenzene",
+    "composition_structure": "Cu(I) nodes connected by BHT linkers forming 2D kagome lattice",
+    "application": "H2O2 electrochemical sensing"
+  },
+  {
+    "MOF_name": "Cu-TCPP",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1002/adma.202104120",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "5,10,15,20-tetrakis(4-carboxyphenyl)porphyrin (H2TCPP)",
+      "functional_groups": "carboxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "unspecified",
+    "Dimensionality": "unspecified",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "H2S sensing sensitivity",
+        "values": [
+          {
+            "value": "82.9",
+            "unit": "%",
+            "conditions": {
+              "concentration": "5 ppm",
+              "temperature": "room temperature"
+            }
+          }
+        ]
+      },
+      {
+        "name": "CH3SH sensing sensitivity",
+        "values": [
+          {
+            "value": "63.1",
+            "unit": "%",
+            "conditions": {
+              "concentration": "50 ppm",
+              "temperature": "room temperature"
+            }
+          }
+        ]
+      },
+      {
+        "name": "H2S detection limit",
+        "values": [
+          {
+            "value": "1",
+            "unit": "ppb",
+            "conditions": {
+              "temperature": "room temperature"
+            }
+          }
+        ]
+      },
+      {
+        "name": "CH3SH detection limit",
+        "values": [
+          {
+            "value": "1",
+            "unit": "ppm",
+            "conditions": {
+              "temperature": "room temperature"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "unspecified",
+          "hkl": "001, 002",
+          "phase": "MOF"
+        }
+      ],
+      "FTIR": [
+        {
+          "wavenumber": "1620, 1400",
+          "intensity": "unspecified",
+          "assignment": "carboxyl group coordination"
+        }
+      ],
+      "XPS": [
+        {
+          "element": "Cu 2p",
+          "peak_position": "934.8 (2p1/2), 954.9 (2p3/2)",
+          "chemical_state": "Cu-O"
+        },
+        {
+          "element": "Cu 2p",
+          "peak_position": "932.5 (2p1/2), 952.4 (2p3/2)",
+          "chemical_state": "Cu-S (after H2S exposure)"
+        },
+        {
+          "element": "S 2p",
+          "peak_position": "162.3, 163.3",
+          "chemical_state": "Cu-S (after H2S exposure)"
+        }
+      ]
+    },
+    "synthesis_method": "Liquid-interface spraying method",
+    "reaction_conditions": {
+      "sketch": "Metal nitrate aqueous solution with sprayed ligand solution",
+      "temperature": "room temperature",
+      "pressure": "ambient",
+      "solvent": "water/methanol"
+    },
+    "raw_materials": "Cu(NO3)2·3H2O, H2TCPP",
+    "composition_structure": "Cu(II) nodes connected by TCPP linkers",
+    "application": "VSCs detection"
+  },
+  {
+    "MOF_name": "Cu-THPP",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1002/adma.202104120",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "5,10,15,20-tetrakis(4-hydroxyphenyl)porphyrin (H2THPP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "unspecified",
+    "Dimensionality": "unspecified",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "VSCs sensing sensitivity",
+        "values": [
+          {
+            "value": "relatively weak",
+            "unit": "unspecified",
+            "conditions": {
+              "temperature": "room temperature"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": null,
+    "synthesis_method": "Liquid-interface spraying method",
+    "reaction_conditions": {
+      "sketch": "Metal nitrate aqueous solution with sprayed ligand solution",
+      "temperature": "room temperature",
+      "pressure": "ambient",
+      "solvent": "water/methanol"
+    },
+    "raw_materials": "Cu(NO3)2·3H2O, H2THPP",
+    "composition_structure": "Cu(II) nodes connected by THPP linkers",
+    "application": "VSCs detection"
+  },
+  {
+    "MOF_name": "Cu-BTEC",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1002/adma.202104120",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "1,2,4,5-benzenetetracarboxylic acid (H4BTEC)",
+      "functional_groups": "carboxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "unspecified",
+    "Dimensionality": "unspecified",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "VSCs sensing sensitivity",
+        "values": [
+          {
+            "value": "no response",
+            "unit": "unspecified",
+            "conditions": {
+              "temperature": "room temperature"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": null,
+    "synthesis_method": "Liquid-interface spraying method",
+    "reaction_conditions": {
+      "sketch": "Metal nitrate aqueous solution with sprayed ligand solution",
+      "temperature": "room temperature",
+      "pressure": "ambient",
+      "solvent": "water/methanol"
+    },
+    "raw_materials": "Cu(NO3)2·3H2O, H4BTEC",
+    "composition_structure": "Cu(II) nodes connected by BTEC linkers",
+    "application": "VSCs detection"
+  },
+  {
+    "MOF_name": "Co-TCPP",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1002/adma.202104120",
+    "metal_node": {
+      "metal_connector": "Co(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "5,10,15,20-tetrakis(4-carboxyphenyl)porphyrin (H2TCPP)",
+      "functional_groups": "carboxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "unspecified",
+    "Dimensionality": "unspecified",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "VSCs sensing sensitivity",
+        "values": [
+          {
+            "value": "no response",
+            "unit": "unspecified",
+            "conditions": {
+              "temperature": "room temperature"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": null,
+    "synthesis_method": "Liquid-interface spraying method",
+    "reaction_conditions": {
+      "sketch": "Metal nitrate aqueous solution with sprayed ligand solution",
+      "temperature": "room temperature",
+      "pressure": "ambient",
+      "solvent": "water/methanol"
+    },
+    "raw_materials": "Co(NO3)2, H2TCPP",
+    "composition_structure": "Co(II) nodes connected by TCPP linkers",
+    "application": "VSCs detection"
+  },
+  {
+    "MOF_name": "Ni-TCPP",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1002/adma.202104120",
+    "metal_node": {
+      "metal_connector": "Ni(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "5,10,15,20-tetrakis(4-carboxyphenyl)porphyrin (H2TCPP)",
+      "functional_groups": "carboxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "unspecified",
+    "Dimensionality": "unspecified",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "VSCs sensing sensitivity",
+        "values": [
+          {
+            "value": "no response",
+            "unit": "unspecified",
+            "conditions": {
+              "temperature": "room temperature"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": null,
+    "synthesis_method": "Liquid-interface spraying method",
+    "reaction_conditions": {
+      "sketch": "Metal nitrate aqueous solution with sprayed ligand solution",
+      "temperature": "room temperature",
+      "pressure": "ambient",
+      "solvent": "water/methanol"
+    },
+    "raw_materials": "Ni(NO3)2, H2TCPP",
+    "composition_structure": "Ni(II) nodes connected by TCPP linkers",
+    "application": "VSCs detection"
+  },
+  {
+    "MOF_name": "Zn-TCPP",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1002/adma.202104120",
+    "metal_node": {
+      "metal_connector": "Zn(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "5,10,15,20-tetrakis(4-carboxyphenyl)porphyrin (H2TCPP)",
+      "functional_groups": "carboxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "unspecified",
+    "Dimensionality": "unspecified",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "VSCs sensing sensitivity",
+        "values": [
+          {
+            "value": "no response",
+            "unit": "unspecified",
+            "conditions": {
+              "temperature": "room temperature"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": null,
+    "synthesis_method": "Liquid-interface spraying method",
+    "reaction_conditions": {
+      "sketch": "Metal nitrate aqueous solution with sprayed ligand solution",
+      "temperature": "room temperature",
+      "pressure": "ambient",
+      "solvent": "water/methanol"
+    },
+    "raw_materials": "Zn(NO3)2, H2TCPP",
+    "composition_structure": "Zn(II) nodes connected by TCPP linkers",
+    "application": "VSCs detection"
+  },
+  {
+    "MOF_name": "Mg-TCPP",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1002/adma.202104120",
+    "metal_node": {
+      "metal_connector": "Mg(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "5,10,15,20-tetrakis(4-carboxyphenyl)porphyrin (H2TCPP)",
+      "functional_groups": "carboxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "unspecified",
+    "Dimensionality": "unspecified",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "VSCs sensing sensitivity",
+        "values": [
+          {
+            "value": "no response",
+            "unit": "unspecified",
+            "conditions": {
+              "temperature": "room temperature"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": null,
+    "synthesis_method": "Liquid-interface spraying method",
+    "reaction_conditions": {
+      "sketch": "Metal nitrate aqueous solution with sprayed ligand solution",
+      "temperature": "room temperature",
+      "pressure": "ambient",
+      "solvent": "water/methanol"
+    },
+    "raw_materials": "Mg(NO3)2, H2TCPP",
+    "composition_structure": "Mg(II) nodes connected by TCPP linkers",
+    "application": "VSCs detection"
+  },
+  {
+    "MOF_name": "Cu3(HHTP)2",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1002/anie.201709558",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "honeycomb-like",
+    "Dimensionality": "2D",
+    "Crystal_system": "hexagonal",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "0.02",
+            "unit": "S cm-1",
+            "conditions": {
+              "temperature": "room temperature",
+              "form": "thin film (40 cycles)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "NH3 sensing response",
+        "values": [
+          {
+            "value": "129",
+            "unit": "%",
+            "conditions": {
+              "concentration": "100 ppm",
+              "temperature": "room temperature",
+              "form": "thin film (10 cycles, ~20 nm)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "NH3 detection limit",
+        "values": [
+          {
+            "value": "0.5",
+            "unit": "ppm",
+            "conditions": {
+              "temperature": "room temperature",
+              "form": "thin film"
+            }
+          }
+        ]
+      },
+      {
+        "name": "response time",
+        "values": [
+          {
+            "value": "1.36",
+            "unit": "min",
+            "conditions": {
+              "gas": "NH3",
+              "concentration": "100 ppm",
+              "temperature": "room temperature",
+              "form": "thin film (10 cycles)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "recovery time",
+        "values": [
+          {
+            "value": "9.11",
+            "unit": "min",
+            "conditions": {
+              "gas": "NH3",
+              "concentration": "100 ppm",
+              "temperature": "room temperature",
+              "form": "thin film (10 cycles)"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "unspecified",
+          "hkl": "unspecified",
+          "phase": "MOF",
+          "match": "simulated pattern"
+        }
+      ],
+      "FTIR": [
+        {
+          "wavenumber": "3170, 877, 856",
+          "intensity": "unspecified",
+          "assignment": "NH3-Cu interaction"
+        }
+      ],
+      "UPS": [
+        {
+          "observation": "Fermi level increase",
+          "value": "1.13",
+          "unit": "eV",
+          "condition": "after NH3 adsorption"
+        }
+      ]
+    },
+    "synthesis_method": "Spray layer-by-layer liquid-phase epitaxial method",
+    "reaction_conditions": {
+      "sketch": "Alternate spraying of copper(II) acetate (0.1 mM) and HHTP (0.01 mM) ethanolic solutions",
+      "temperature": "room temperature",
+      "pressure": "ambient",
+      "solvent": "ethanol",
+      "cycle_time": "20s Cu + 40s HHTP + ethanol rinse per cycle",
+      "thickness_growth": "~2 nm per cycle"
+    },
+    "raw_materials": "Copper(II) acetate, HHTP ligand",
+    "composition_structure": "Cu(II) nodes connected by HHTP linkers forming 2D hexagonal layers with AB stacking (3.3 Å interlayer distance)",
+    "application": "NH3 gas sensing"
+  },
+  {
+    "MOF_name": "Cu3(HHTP)(THQ)",
+    "molecular_formula": "Cu3C24O12H6",
+    "source_paper": "10.1002/anie.201909096",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "square-planar",
+      "coordination_geometry": "square-planar",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydrotriphenylene (HHTP) and tetrahydroxy-1,4-quinone (THQ)",
+      "functional_groups": "hydroxyl",
+      "conformation": "trigonal"
+    },
+    "topology": "honeycomb-like",
+    "Dimensionality": "2D",
+    "Crystal_system": "trigonal",
+    "Space_group": "P3m1",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "2.53×10^-5",
+            "unit": "S cm^-1",
+            "conditions": {
+              "temperature": "room temperature",
+              "form": "powder pellet"
+            }
+          }
+        ]
+      },
+      {
+        "name": "thermal activation energy",
+        "values": [
+          {
+            "value": "0.30",
+            "unit": "eV",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "BET surface area",
+        "values": [
+          {
+            "value": "441.2",
+            "unit": "m^2 g^-1",
+            "conditions": {
+              "temperature": "77 K",
+              "gas": "N2"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "3.08° (5.95° for λ=1.54178Å)",
+          "hkl": "(100)",
+          "phase": "MOF"
+        },
+        {
+          "2theta": "14.68° (28.48° for λ=1.54178Å)",
+          "hkl": "(002)",
+          "phase": "MOF"
+        }
+      ],
+      "FTIR": "unspecified",
+      "XPS": "unspecified"
+    },
+    "synthesis_method": "Solution-phase method using ethylenediamine as competing ligand",
+    "reaction_conditions": {
+      "sketch": "Ultrasonic mixing of copper acetate and ethylenediamine with HHTP and THQ, maintained at 65°C for 24 h",
+      "temperature": "65°C",
+      "pressure": "ambient",
+      "solvent": "water",
+      "reaction_time": "24 h"
+    },
+    "raw_materials": "Copper acetate, HHTP ligand, THQ ligand, ethylenediamine",
+    "composition_structure": "Cu(II) nodes connected by HHTP and THQ linkers forming 2D hexagonal layers with AB stacking",
+    "application": "NH3 gas sensing"
+  },
+  {
+    "MOF_name": "Cu3(HHTP)2",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1002/anie.201909096",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydrotriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "honeycomb-like",
+    "Dimensionality": "2D",
+    "Crystal_system": "hexagonal",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "10^-3",
+            "unit": "S cm^-1",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "thermal activation energy",
+        "values": [
+          {
+            "value": "0.16",
+            "unit": "eV",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": "unspecified",
+    "synthesis_method": "unspecified",
+    "reaction_conditions": "unspecified",
+    "raw_materials": "unspecified",
+    "composition_structure": "unspecified",
+    "application": "unspecified"
+  },
+  {
+    "MOF_name": "Cu3(THQ)2",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1002/anie.201909096",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "tetrahydroxy-1,4-quinone (THQ)",
+      "functional_groups": "hydroxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "unspecified",
+    "Dimensionality": "unspecified",
+    "Crystal_system": "orthorhombic",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "10^-8",
+            "unit": "S cm^-1",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "thermal activation energy",
+        "values": [
+          {
+            "value": "0.46",
+            "unit": "eV",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": "unspecified",
+    "synthesis_method": "unspecified",
+    "reaction_conditions": "unspecified",
+    "raw_materials": "unspecified",
+    "composition_structure": "unspecified",
+    "application": "unspecified"
+  },
+  {
+    "MOF_name": "Cu-(HHTP)(THQ)",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.3390/bios12060367",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxy-sanya-phenyl (HHTP) and tetrahydroxy 1,4-quinone (THQ)",
+      "functional_groups": "hydroxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "2D π-conjugation",
+    "Dimensionality": "2D",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "unspecified",
+            "unit": "unspecified",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": "unspecified",
+      "FTIR": "unspecified",
+      "XPS": "unspecified"
+    },
+    "synthesis_method": "Self-assemble technique",
+    "reaction_conditions": {
+      "sketch": "Ultrasonic mixing of copper acetate and ethylenediamine with HHTP and THQ, maintained at 75°C for 24 h",
+      "temperature": "75°C",
+      "pressure": "ambient",
+      "solvent": "water",
+      "reaction_time": "24 h"
+    },
+    "raw_materials": "Copper acetate, HHTP ligand, THQ ligand, ethylenediamine",
+    "composition_structure": "Cu(II) nodes connected by HHTP and THQ linkers forming 2D layers",
+    "application": "BPA electrochemical sensing"
+  },
+  {
+    "MOF_name": "Cu-HHTP",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.3390/bios12060367",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "unspecified",
+    "Dimensionality": "unspecified",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": "unspecified",
+    "characterization_data": "unspecified",
+    "synthesis_method": "unspecified",
+    "reaction_conditions": "unspecified",
+    "raw_materials": "unspecified",
+    "composition_structure": "unspecified",
+    "application": "unspecified"
+  },
+  {
+    "MOF_name": "Cu-BHT",
+    "molecular_formula": "Cu3C6S6",
+    "source_paper": "10.1021/acsami.0c18422",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "Cu2c (two-coordinated edge Cu atoms)"
+    },
+    "ligand": {
+      "name": "benzenehexathiol (BHT)",
+      "functional_groups": "thiol",
+      "conformation": "unspecified"
+    },
+    "topology": "2D kagome lattice",
+    "Dimensionality": "2D",
+    "Crystal_system": "Hexagonal",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "1005-1532",
+            "unit": "S/cm",
+            "conditions": {
+              "temperature": "room temperature",
+              "form": "film",
+              "thickness": "5-35 nm"
+            }
+          }
+        ]
+      },
+      {
+        "name": "NH3 sensing performance",
+        "values": [
+          {
+            "value": "0.23",
+            "unit": "ppm",
+            "conditions": {
+              "parameter": "limit of detection",
+              "driving_voltage": "0.01 V",
+              "temperature": "room temperature"
+            }
+          },
+          {
+            "value": "58",
+            "unit": "s",
+            "conditions": {
+              "parameter": "response time",
+              "NH3_concentration": "20 ppm"
+            }
+          },
+          {
+            "value": "102",
+            "unit": "s",
+            "conditions": {
+              "parameter": "recovery time",
+              "NH3_concentration": "20 ppm"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "unspecified",
+          "hkl": "unspecified",
+          "phase": "Cu-BHT"
+        }
+      ],
+      "XPS": [
+        {
+          "element": "Cu 2p3/2",
+          "peak_position": "932.3, 934.1",
+          "chemical_state": "Cu4c (four-coordinated), Cu2c (two-coordinated)"
+        }
+      ]
+    },
+    "synthesis_method": "Spin-coating interfacial self-assembly (SCIS)",
+    "reaction_conditions": {
+      "sketch": "Ultrasonic mixing of copper acetate and BHT/chlorobenzene solution at aqueous-organic interface",
+      "temperature": "room temperature",
+      "pressure": "ambient",
+      "solvent": "water and chlorobenzene",
+      "reaction_time": "5 s to 16 min"
+    },
+    "raw_materials": "Copper acetate, benzenehexathiol (BHT)",
+    "composition_structure": "Cu(II) nodes connected by BHT linkers forming 2D layers with AA stacking",
+    "application": "Flexible chemiresistive NH3 sensing"
+  },
+  {
+    "MOF_name": "Cu3(HHTP)(THQ)",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1021/acsami.0c18422",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP) and tetrahydroxy-1,4-quinone (THQ)",
+      "functional_groups": "hydroxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "unspecified",
+    "Dimensionality": "2D",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "NH3 sensing performance",
+        "values": [
+          {
+            "value": "0.35",
+            "unit": "ppm",
+            "conditions": {
+              "parameter": "limit of detection",
+              "driving_voltage": "5 V"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": "unspecified",
+    "synthesis_method": "unspecified",
+    "reaction_conditions": "unspecified",
+    "raw_materials": "unspecified",
+    "composition_structure": "unspecified",
+    "application": "NH3 sensing"
+  },
+  {
+    "MOF_name": "Cu3(HHTP)2",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1021/acsami.0c18422",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "unspecified",
+    "Dimensionality": "2D",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "NH3 sensing performance",
+        "values": [
+          {
+            "value": "0.5",
+            "unit": "ppm",
+            "conditions": {
+              "parameter": "limit of detection",
+              "driving_voltage": "10 V"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": "unspecified",
+    "synthesis_method": "unspecified",
+    "reaction_conditions": "unspecified",
+    "raw_materials": "unspecified",
+    "composition_structure": "unspecified",
+    "application": "NH3 sensing"
+  },
+  {
+    "MOF_name": "Ni3(C18H6(NH)6)2",
+    "molecular_formula": "Ni3C36H12N12",
+    "source_paper": "10.1039/d0ta01379j",
+    "metal_node": {
+      "metal_connector": "Ni(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexaaminotriphenylene (HITP)",
+      "functional_groups": "amino",
+      "conformation": "unspecified"
+    },
+    "topology": "2D honeycomb",
+    "Dimensionality": "2D",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "work function",
+        "values": [
+          {
+            "value": "4.59",
+            "unit": "eV",
+            "conditions": {
+              "form": "thin film",
+              "thickness": "20 nm"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Schottky barrier height",
+        "values": [
+          {
+            "value": "0.92",
+            "unit": "eV",
+            "conditions": {
+              "device": "Ag/Ni3(C18H6(NH)6)2/n-Si",
+              "thickness": "20 nm"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "unspecified",
+          "hkl": "unspecified",
+          "phase": "Ni3(C18H6(NH)6)2"
+        }
+      ],
+      "Raman": [
+        {
+          "wavenumber": "1355.0, 1555.8",
+          "intensity": "unspecified",
+          "assignment": "D and G bands"
+        }
+      ]
+    },
+    "synthesis_method": "Solution-phase synthesis at air/liquid interface",
+    "reaction_conditions": {
+      "sketch": "Reaction of NiCl2·6H2O with HITP in water at 65°C with NH4OH",
+      "temperature": "65 °C",
+      "pressure": "ambient",
+      "solvent": "water",
+      "reaction_time": "90 s"
+    },
+    "raw_materials": "Nickel chloride hexahydrate, 2,3,6,7,10,11-hexaaminotriphenylene",
+    "composition_structure": "Ni(II) nodes connected by HITP linkers forming 2D layers",
+    "application": "Schottky diode interlayer"
+  },
+  {
+    "MOF_name": "Cu3(C18H6(NH)6)2",
+    "molecular_formula": "Cu3C36H12N12",
+    "source_paper": "10.1039/d0ta01379j",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexaaminotriphenylene (HITP)",
+      "functional_groups": "amino",
+      "conformation": "unspecified"
+    },
+    "topology": "2D honeycomb",
+    "Dimensionality": "2D",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "work function",
+        "values": [
+          {
+            "value": "4.69",
+            "unit": "eV",
+            "conditions": {
+              "form": "thin film",
+              "thickness": "20 nm"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Schottky barrier height",
+        "values": [
+          {
+            "value": "0.95",
+            "unit": "eV",
+            "conditions": {
+              "device": "Ag/Cu3(C18H6(NH)6)2/n-Si",
+              "thickness": "20 nm"
+            }
+          }
+        ]
+      },
+      {
+        "name": "carrier mobility",
+        "values": [
+          {
+            "value": "0.02",
+            "unit": "cm²/V·s",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "carrier diffusion length",
+        "values": [
+          {
+            "value": "27.3",
+            "unit": "nm",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "unspecified",
+          "hkl": "unspecified",
+          "phase": "Cu3(C18H6(NH)6)2"
+        }
+      ],
+      "Raman": [
+        {
+          "wavenumber": "1367.7, 1552.7",
+          "intensity": "unspecified",
+          "assignment": "D and G bands"
+        }
+      ]
+    },
+    "synthesis_method": "Layer-by-layer liquid-phase epitaxial (LBL) spray method",
+    "reaction_conditions": {
+      "sketch": "Alternate spraying of copper(II) acetate and HITP solutions on functionalized substrates",
+      "temperature": "room temperature",
+      "pressure": "ambient",
+      "solvent": "ethanol",
+      "reaction_time": "multiple cycles (20s/40s per cycle)"
+    },
+    "raw_materials": "Copper(II) acetate, 2,3,6,7,10,11-hexaaminotriphenylene",
+    "composition_structure": "Cu(II) nodes connected by HITP linkers forming 2D layers",
+    "application": "Self-powered photodetector and gas sensor"
+  },
+  {
+    "MOF_name": "Cu3(C18H6O6)2",
+    "molecular_formula": "Cu3C36H12O12",
+    "source_paper": "10.1039/d0ta01379j",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "2D honeycomb",
+    "Dimensionality": "2D",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "work function",
+        "values": [
+          {
+            "value": "4.98",
+            "unit": "eV",
+            "conditions": {
+              "form": "thin film",
+              "thickness": "20 nm"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Schottky barrier height",
+        "values": [
+          {
+            "value": "1.01",
+            "unit": "eV",
+            "conditions": {
+              "device": "Ag/Cu3(C18H6O6)2/n-Si",
+              "thickness": "20 nm"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "unspecified",
+          "hkl": "unspecified",
+          "phase": "Cu3(C18H6O6)2"
+        }
+      ],
+      "Raman": [
+        {
+          "wavenumber": "1364.5, 1565.1",
+          "intensity": "unspecified",
+          "assignment": "D and G bands"
+        }
+      ]
+    },
+    "synthesis_method": "Layer-by-layer liquid-phase epitaxial (LBL) spray method",
+    "reaction_conditions": {
+      "sketch": "Alternate spraying of copper(II) acetate and HHTP solutions on functionalized substrates",
+      "temperature": "room temperature",
+      "pressure": "ambient",
+      "solvent": "ethanol",
+      "reaction_time": "10 deposition cycles"
+    },
+    "raw_materials": "Copper(II) acetate, 2,3,6,7,10,11-hexahydroxytriphenylene",
+    "composition_structure": "Cu(II) nodes connected by HHTP linkers forming 2D layers",
+    "application": "Schottky diode interlayer"
+  },
+  {
+    "MOF_name": "Ni3(C18H6(NH)6)2",
+    "molecular_formula": "Ni3C36H12N12",
+    "source_paper": "10.1021/acsami.2c22665",
+    "metal_node": {
+      "metal_connector": "Ni(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexaaminotriphenylene (HITP)",
+      "functional_groups": "amino",
+      "conformation": "unspecified"
+    },
+    "topology": "2D honeycomb",
+    "Dimensionality": "2D",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "metallic",
+            "unit": "unspecified",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "unspecified",
+          "hkl": "unspecified",
+          "phase": "Ni3(C18H6(NH)6)2"
+        }
+      ]
+    },
+    "synthesis_method": "Solution-phase synthesis at air/liquid interface",
+    "reaction_conditions": {
+      "sketch": "Reaction of NiCl2·6H2O with HITP in water at 65°C with NH4OH",
+      "temperature": "65 °C",
+      "pressure": "ambient",
+      "solvent": "water",
+      "reaction_time": "90 s"
+    },
+    "raw_materials": "Nickel chloride hexahydrate, 2,3,6,7,10,11-hexaaminotriphenylene",
+    "composition_structure": "Ni(II) nodes connected by HITP linkers forming 2D layers",
+    "application": "Schottky diode interlayer"
+  },
+  {
+    "MOF_name": "Cu3(C18H6(NH)6)2",
+    "molecular_formula": "Cu3C36H12N12",
+    "source_paper": "10.1021/acsami.2c22665",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexaaminotriphenylene (HITP)",
+      "functional_groups": "amino",
+      "conformation": "unspecified"
+    },
+    "topology": "2D honeycomb",
+    "Dimensionality": "2D",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "metallic",
+            "unit": "unspecified",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "carrier mobility",
+        "values": [
+          {
+            "value": "0.02",
+            "unit": "cm²/V·s",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "unspecified",
+          "hkl": "unspecified",
+          "phase": "Cu3(C18H6(NH)6)2"
+        }
+      ]
+    },
+    "synthesis_method": "Layer-by-layer liquid-phase epitaxial (LBL) spray method",
+    "reaction_conditions": {
+      "sketch": "Alternate spraying of copper(II) acetate and HITP solutions on functionalized substrates",
+      "temperature": "room temperature",
+      "pressure": "ambient",
+      "solvent": "ethanol",
+      "reaction_time": "multiple cycles (20s/40s per cycle)"
+    },
+    "raw_materials": "Copper(II) acetate, 2,3,6,7,10,11-hexaaminotriphenylene",
+    "composition_structure": "Cu(II) nodes connected by HITP linkers forming 2D layers",
+    "application": "Self-powered photodetector and gas sensor"
+  },
+  {
+    "MOF_name": "Cu3(C18H6O6)2",
+    "molecular_formula": "Cu3C36H12O12",
+    "source_paper": "10.1021/acsami.2c22665",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "2D honeycomb",
+    "Dimensionality": "2D",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "metallic",
+            "unit": "unspecified",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "unspecified",
+          "hkl": "unspecified",
+          "phase": "Cu3(C18H6O6)2"
+        }
+      ]
+    },
+    "synthesis_method": "Layer-by-layer liquid-phase epitaxial (LBL) spray method",
+    "reaction_conditions": {
+      "sketch": "Alternate spraying of copper(II) acetate and HHTP solutions on functionalized substrates",
+      "temperature": "room temperature",
+      "pressure": "ambient",
+      "solvent": "ethanol",
+      "reaction_time": "10 deposition cycles"
+    },
+    "raw_materials": "Copper(II) acetate, 2,3,6,7,10,11-hexahydroxytriphenylene",
+    "composition_structure": "Cu(II) nodes connected by HHTP linkers forming 2D layers",
+    "application": "Schottky diode interlayer"
+  },
+  {
+    "MOF_name": "Ni-HAB",
+    "molecular_formula": "Ni3C36H12N12",
+    "source_paper": "10.1021/acs.nanolett.4c04650",
+    "metal_node": {
+      "metal_connector": "Ni(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "hexaaminobenzene (HAB)",
+      "functional_groups": "amino",
+      "conformation": "unspecified"
+    },
+    "topology": "2D",
+    "Dimensionality": "2D",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "metallic",
+            "unit": "unspecified",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "band gap",
+        "values": [
+          {
+            "value": "0.57",
+            "unit": "eV",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "TEM": [
+        {
+          "interlayer_spacing": "0.347",
+          "unit": "nm",
+          "conditions": "unspecified"
+        }
+      ],
+      "AFM": [
+        {
+          "surface_roughness": "<20",
+          "unit": "nm",
+          "conditions": "unspecified"
+        }
+      ],
+      "XPS": [
+        {
+          "element": "Ni 2p",
+          "peak_position": "unspecified",
+          "chemical_state": "Ni(II)"
+        },
+        {
+          "element": "N 1s",
+          "peak_position": "unspecified",
+          "chemical_state": "unspecified"
+        }
+      ]
+    },
+    "synthesis_method": "Solution-phase synthesis at air/liquid interface",
+    "reaction_conditions": {
+      "sketch": "Reaction of Ni(NO3)2·6H2O with HAB·3HCl in water at 65°C with NH4OH",
+      "temperature": "65 °C",
+      "pressure": "ambient",
+      "solvent": "water",
+      "reaction_time": "12 h"
+    },
+    "raw_materials": "Nickel nitrate hexahydrate, hexaaminobenzene trihydrochloride",
+    "composition_structure": "Ni(II) nodes connected by HAB linkers forming 2D layers",
+    "application": "artificial synapse"
+  },
+  {
+    "MOF_name": "EC-MOF",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1021/acs.nanolett.4c04650",
+    "metal_node": {
+      "metal_connector": "Ni(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "hexaaminobenzene (HAB)",
+      "functional_groups": "amino",
+      "conformation": "unspecified"
+    },
+    "topology": "2D",
+    "Dimensionality": "2D",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "metallic",
+            "unit": "unspecified",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "pore size",
+        "values": [
+          {
+            "value": "8",
+            "unit": "Å",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "power consumption",
+        "values": [
+          {
+            "value": "1",
+            "unit": "fW",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "TEM": [
+        {
+          "interlayer_spacing": "0.347",
+          "unit": "nm",
+          "conditions": "unspecified"
+        }
+      ],
+      "AFM": [
+        {
+          "surface_roughness": "<20",
+          "unit": "nm",
+          "conditions": "unspecified"
+        }
+      ],
+      "XPS": [
+        {
+          "element": "Ni 2p",
+          "peak_position": "unspecified",
+          "chemical_state": "Ni(II)"
+        },
+        {
+          "element": "N 1s",
+          "peak_position": "unspecified",
+          "chemical_state": "unspecified"
+        }
+      ]
+    },
+    "synthesis_method": "Solution-phase synthesis at air/liquid interface",
+    "reaction_conditions": {
+      "sketch": "Reaction of Ni(NO3)2·6H2O with HAB·3HCl in water at 65°C with NH4OH",
+      "temperature": "65 °C",
+      "pressure": "ambient",
+      "solvent": "water",
+      "reaction_time": "12 h"
+    },
+    "raw_materials": "Nickel nitrate hexahydrate, hexaaminobenzene trihydrochloride",
+    "composition_structure": "Ni(II) nodes connected by HAB linkers forming 2D layers",
+    "application": "artificial synapse"
+  },
+  {
+    "MOF_name": "Ni3(HITP)2",
+    "molecular_formula": "Ni3C36H12N12",
+    "source_paper": "10.1021/acs.nanolett.4c04650",
+    "metal_node": {
+      "metal_connector": "Ni(II)",
+      "coordination": "square planar",
+      "coordination_geometry": "square planar",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexaiminotriphenylene (HITP)",
+      "functional_groups": "imino",
+      "conformation": "planar"
+    },
+    "topology": "2D",
+    "Dimensionality": "2D",
+    "Crystal_system": "hexagonal",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "metallic",
+            "unit": "unspecified",
+            "conditions": "0 K optimized structure"
+          },
+          {
+            "value": "semiconducting",
+            "unit": "unspecified",
+            "conditions": "293 K equilibrated structure"
+          }
+        ]
+      },
+      {
+        "name": "band gap",
+        "values": [
+          {
+            "value": "0.57",
+            "unit": "eV",
+            "conditions": "unspecified"
+          },
+          {
+            "value": "0.05-0.20",
+            "unit": "eV",
+            "conditions": "293 K"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "TEM": [
+        {
+          "interlayer_spacing": "0.347",
+          "unit": "nm",
+          "conditions": "unspecified"
+        }
+      ],
+      "AFM": [
+        {
+          "surface_roughness": "<20",
+          "unit": "nm",
+          "conditions": "unspecified"
+        }
+      ],
+      "XPS": [
+        {
+          "element": "Ni 2p",
+          "peak_position": "unspecified",
+          "chemical_state": "Ni(II)"
+        },
+        {
+          "element": "N 1s",
+          "peak_position": "unspecified",
+          "chemical_state": "unspecified"
+        }
+      ]
+    },
+    "synthesis_method": "Solution-phase synthesis at air/liquid interface",
+    "reaction_conditions": {
+      "sketch": "Reaction of Ni(NO3)2·6H2O with HAB·3HCl in water at 65°C with NH4OH",
+      "temperature": "65 °C",
+      "pressure": "ambient",
+      "solvent": "water",
+      "reaction_time": "12 h"
+    },
+    "raw_materials": "Nickel nitrate hexahydrate, hexaaminobenzene trihydrochloride",
+    "composition_structure": "Ni(II) nodes connected by HITP linkers forming 2D layers",
+    "application": "artificial synapse, neuromorphic computing"
+  },
+  {
+    "MOF_name": "Zn3(HITP)2",
+    "molecular_formula": "Zn3C36H12N12",
+    "source_paper": "10.1021/acs.nanolett.4c04650",
+    "metal_node": {
+      "metal_connector": "Zn(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexaiminotriphenylene (HITP)",
+      "functional_groups": "imino",
+      "conformation": "stepped"
+    },
+    "topology": "2D",
+    "Dimensionality": "2D",
+    "Crystal_system": "hexagonal",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "band gap",
+        "values": [
+          {
+            "value": "~1",
+            "unit": "eV",
+            "conditions": "0 K"
+          }
+        ]
+      }
+    ],
+    "characterization_data": null,
+    "synthesis_method": "unspecified",
+    "reaction_conditions": {
+      "sketch": "unspecified",
+      "temperature": "unspecified",
+      "pressure": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "unspecified",
+    "composition_structure": "Zn(II) nodes connected by HITP linkers forming 2D layers",
+    "application": "unspecified"
+  },
+  {
+    "MOF_name": "Co3(HHTP)2",
+    "molecular_formula": "Co3C18O6",
+    "source_paper": "10.1021/acs.nanolett.4c04650",
+    "metal_node": {
+      "metal_connector": "Co(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "2D",
+    "Dimensionality": "2D",
+    "Crystal_system": "hexagonal",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "metallic",
+            "unit": "unspecified",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": null,
+    "synthesis_method": "solvothermal self-assembly",
+    "reaction_conditions": {
+      "sketch": "unspecified",
+      "temperature": "unspecified",
+      "pressure": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "unspecified",
+    "composition_structure": "Co(II) nodes connected by HHTP linkers forming 2D layers",
+    "application": "unspecified"
+  },
+  {
+    "MOF_name": "CuHHTT",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1021/acs.nanolett.4c04650",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "hexahydroxytetraazanaphthotetraphene (HHTT)",
+      "functional_groups": "hydroxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "2D",
+    "Dimensionality": "2D",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "gravimetric surface area",
+        "values": [
+          {
+            "value": "1360-1549",
+            "unit": "m²/g",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": null,
+    "synthesis_method": "unspecified",
+    "reaction_conditions": {
+      "sketch": "unspecified",
+      "temperature": "unspecified",
+      "pressure": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "unspecified",
+    "composition_structure": "Cu(II) nodes connected by HHTT linkers forming 2D layers",
+    "application": "unspecified"
+  },
+  {
+    "MOF_name": "CuHHTX",
+    "molecular_formula": "unspecified",
+    "source_paper": "10.1021/acs.nanolett.4c04650",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "hexahydroxytruxene (HHTX)",
+      "functional_groups": "hydroxyl",
+      "conformation": "unspecified"
+    },
+    "topology": "2D",
+    "Dimensionality": "2D",
+    "Crystal_system": "unspecified",
+    "Space_group": "unspecified",
+    "properties": [
+      {
+        "name": "band gap",
+        "values": [
+          {
+            "value": "0.95",
+            "unit": "eV",
+            "conditions": "monolayer"
+          }
+        ]
+      }
+    ],
+    "characterization_data": null,
+    "synthesis_method": "unspecified",
+    "reaction_conditions": {
+      "sketch": "unspecified",
+      "temperature": "unspecified",
+      "pressure": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "unspecified",
+    "composition_structure": "Cu(II) nodes connected by HHTX linkers forming 2D layers",
+    "application": "unspecified"
+  },
+  {
+    "MOF_name": "Cu-HHTC",
+    "molecular_formula": "Cu3C36H12O12",
+    "source_paper": "10.1021/acs.nanolett.4c04650",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "square planar",
+      "coordination_geometry": "square planar",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,8,9,14,15-hexahydroxytribenzocyclyne (HHTC)",
+      "functional_groups": "hydroxyl",
+      "conformation": "planar"
+    },
+    "topology": "2D",
+    "Dimensionality": "2D",
+    "Crystal_system": "hexagonal",
+    "Space_group": "P6/mmm",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "3.02e-3",
+            "unit": "S/cm",
+            "conditions": "ambient atmosphere"
+          }
+        ]
+      },
+      {
+        "name": "band gap",
+        "values": [
+          {
+            "value": "0.78",
+            "unit": "eV",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "TEM": [
+        {
+          "interlayer_spacing": "0.347",
+          "unit": "nm",
+          "conditions": "unspecified"
+        }
+      ],
+      "XPS": [
+        {
+          "element": "Cu 2p",
+          "peak_position": "933.2, 935.1",
+          "unit": "eV",
+          "chemical_state": "Cu(I), Cu(II)"
+        },
+        {
+          "element": "O 1s",
+          "peak_position": "531.4, 533.7",
+          "unit": "eV",
+          "chemical_state": "C=O, C-O"
+        }
+      ]
+    },
+    "synthesis_method": "Solvothermal synthesis at 50°C for 8h in H2O:DMF (1:1 v/v)",
+    "reaction_conditions": {
+      "temperature": "50 °C",
+      "solvent": "H2O:DMF (1:1 v/v)",
+      "time": "8 h"
+    },
+    "raw_materials": "HHTC ligand, Cu(NO3)2·2.5H2O",
+    "composition_structure": null,
+    "application": "artificial synapse, neuromorphic computing"
+  },
+  {
+    "MOF_name": "Cu-EP",
+    "molecular_formula": "Cu3C96H36O12",
+    "source_paper": "10.1021/acs.nanolett.4c04650",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "ethynylphenanthrene macrocyclic ligand (EP)",
+      "functional_groups": "hydroxyl, alkyne",
+      "conformation": "unspecified"
+    },
+    "topology": "2D",
+    "Dimensionality": "2D",
+    "Crystal_system": "hexagonal",
+    "Space_group": "P6/mmm",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "1.0e-3",
+            "unit": "S/cm",
+            "conditions": "ambient atmosphere"
+          }
+        ]
+      },
+      {
+        "name": "band gap",
+        "values": [
+          {
+            "value": "0.8",
+            "unit": "eV",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "TEM": [
+        {
+          "lattice_distance": "2.36",
+          "unit": "nm",
+          "conditions": "unspecified"
+        }
+      ],
+      "XPS": [
+        {
+          "element": "Cu 2p",
+          "peak_position": "932.3, 934.2",
+          "unit": "eV",
+          "chemical_state": "Cu(I), Cu(II)"
+        },
+        {
+          "element": "O 1s",
+          "peak_position": "530.9, 532.3",
+          "unit": "eV",
+          "chemical_state": "C=O, C-O"
+        }
+      ]
+    },
+    "synthesis_method": "Solvothermal synthesis at 60°C for 12h in DMF with 0.4mL H2O",
+    "reaction_conditions": {
+      "temperature": "60 °C",
+      "solvent": "DMF with 0.4mL H2O",
+      "time": "12 h"
+    },
+    "raw_materials": "EP ligand, Cu(NO3)2·2.5H2O",
+    "composition_structure": null,
+    "application": "ion selectivity, energy storage"
+  },
+  {
+    "MOF_name": "Ni-HATC",
+    "molecular_formula": "Ni3C36H12N12",
+    "source_paper": "10.1016/j.chempr.2025.102487",
+    "metal_node": {
+      "metal_connector": "Ni(II)",
+      "coordination": "unspecified",
+      "coordination_geometry": "unspecified",
+      "cluster_type": "unspecified",
+      "open_metal_site": "unspecified"
+    },
+    "ligand": {
+      "name": "2,3,8,9,14,15-hexaaminotribenzocyclyne (HATC)",
+      "functional_groups": "amino",
+      "conformation": "unspecified"
+    },
+    "topology": "2D",
+    "Dimensionality": "2D",
+    "Crystal_system": "hexagonal",
+    "Space_group": "P6/mmm",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "metallic",
+            "unit": "unspecified",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": null,
+    "synthesis_method": "Solvothermal synthesis with NH4OH or NaOAc",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified",
+      "time": "unspecified"
+    },
+    "raw_materials": "HATC ligand, Ni salt",
+    "composition_structure": null,
+    "application": "nanoporous synthetic metal"
+  },
+  {
+    "MOF_name": "EC-MOF",
+    "molecular_formula": "",
+    "source_paper": "10.1007/s11082-023-05454-9",
+    "metal_node": {
+      "metal_connector": "",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "",
+      "functional_groups": "",
+      "conformation": ""
+    },
+    "topology": "",
+    "Dimensionality": "",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "refractive index sensitivity",
+        "values": [
+          {
+            "value": "2082",
+            "unit": "nm/RIU",
+            "conditions": "wavelength interrogation"
+          },
+          {
+            "value": "202",
+            "unit": "RIU⁻¹",
+            "conditions": "amplitude interrogation"
+          }
+        ]
+      },
+      {
+        "name": "figure of merit",
+        "values": [
+          {
+            "value": "347",
+            "unit": "RIU⁻¹",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "full width half maximum",
+        "values": [
+          {
+            "value": "6",
+            "unit": "nm",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [],
+      "FTIR": [],
+      "XPS": []
+    },
+    "synthesis_method": "Solvothermal synthesis",
+    "reaction_conditions": {
+      "temperature": "50-60 °C",
+      "solvent": "H2O:DMF (1:1 v/v) or DMF with 0.4mL H2O",
+      "time": "8-12 h"
+    },
+    "raw_materials": "HHTC ligand, Cu(NO3)2·2.5H2O, EP ligand, Ni salt",
+    "composition_structure": null,
+    "application": "multiplex RI sensing"
+  },
+  {
+    "MOF_name": "Ni3(HHTP)2",
+    "molecular_formula": "Ni3(C18H6O6)2",
+    "source_paper": "10.1007/s11581-025-06266-5",
+    "metal_node": {
+      "metal_connector": "Ni(II)",
+      "coordination": "octahedral",
+      "coordination_geometry": "octahedral",
+      "cluster_type": "discrete units and extended 2D framework",
+      "open_metal_site": "Yes"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-Hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "planar"
+    },
+    "topology": "honeycomb-like",
+    "Dimensionality": "2D",
+    "Crystal_system": "Trigonal",
+    "Space_group": "P3c1",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "high",
+            "unit": "unspecified",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "specific surface area",
+        "values": [
+          {
+            "value": "large",
+            "unit": "unspecified",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "pore diameter",
+        "values": [
+          {
+            "value": "1.8",
+            "unit": "nm",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "unspecified",
+          "hkl": "(100)",
+          "phase": "MOF"
+        }
+      ],
+      "FTIR": [
+        {
+          "wavenumber": "547",
+          "intensity": "unspecified",
+          "assignment": "Ni-O bond"
+        }
+      ],
+      "XPS": [
+        {
+          "element": "Ni 2p",
+          "peak_position": "855.7, 862.1, 873.8, 879.8",
+          "chemical_state": "Ni(II)"
+        },
+        {
+          "element": "C 1s",
+          "peak_position": "284.5, 286, 288.4",
+          "chemical_state": "C=C, C-O, C=O"
+        },
+        {
+          "element": "O 1s",
+          "peak_position": "531.4, 533",
+          "chemical_state": "Ni-O, H-O"
+        }
+      ],
+      "Raman": [
+        {
+          "wavenumber": "1375, 1570",
+          "intensity": "unspecified",
+          "assignment": "D and G bands"
+        }
+      ]
+    },
+    "synthesis_method": "Solvothermal synthesis",
+    "reaction_conditions": {
+      "sketch": "Hydrothermal process at 85 °C for 12 h",
+      "temperature": "85",
+      "unit": "°C",
+      "solvent": "H2O:DMF (4:1 v/v)",
+      "time": "12 h"
+    },
+    "raw_materials": "Nickel acetate tetrahydrate, HHTP ligand",
+    "composition_structure": "Alternating AB rotated stacking layers with hexagonal array of 1D channels",
+    "application": "Electrochemical detection of paraquat",
+    "electrochemical_properties": [
+      {
+        "name": "detection sensitivity",
+        "values": [
+          {
+            "value": "175",
+            "unit": "μA·μM⁻¹·cm⁻²",
+            "conditions": "0.01-0.1 μM PQ"
+          },
+          {
+            "value": "6.3",
+            "unit": "μA·μM⁻¹·cm⁻²",
+            "conditions": "0.1-200 μM PQ"
+          }
+        ]
+      },
+      {
+        "name": "detection limit",
+        "values": [
+          {
+            "value": "4.4",
+            "unit": "nM",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "effective surface area",
+        "values": [
+          {
+            "value": "0.2505",
+            "unit": "cm²",
+            "conditions": "Ni3(HHTP)2/CP"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "MOF_name": "Ni-HHTP",
+    "molecular_formula": "Ni3(C18H6O6)2",
+    "source_paper": "10.1021/acsmaterialslett.3c01224",
+    "metal_node": {
+      "metal_connector": "Ni(II)",
+      "coordination": "octahedral",
+      "coordination_geometry": "octahedral",
+      "cluster_type": "discrete units and extended 2D framework",
+      "open_metal_site": "Yes"
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-Hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "planar"
+    },
+    "topology": "honeycomb-like",
+    "Dimensionality": "2D",
+    "Crystal_system": "Trigonal",
+    "Space_group": "P3c1",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "9.68×10^-4",
+            "unit": "S cm^-1",
+            "conditions": "bulk Ni-HHTP"
+          },
+          {
+            "value": "1.23×10^-4",
+            "unit": "S cm^-1",
+            "conditions": "Ni-HHTP-Flower"
+          },
+          {
+            "value": "9.00×10^-6",
+            "unit": "S cm^-1",
+            "conditions": "Ni-HHTP-Disc"
+          }
+        ]
+      },
+      {
+        "name": "optical band gap",
+        "values": [
+          {
+            "value": "0.92",
+            "unit": "eV",
+            "conditions": "bulk Ni-HHTP"
+          },
+          {
+            "value": "0.94",
+            "unit": "eV",
+            "conditions": "Ni-HHTP-Disc"
+          },
+          {
+            "value": "0.92",
+            "unit": "eV",
+            "conditions": "Ni-HHTP-Flower"
+          }
+        ]
+      },
+      {
+        "name": "gravimetric capacitance",
+        "values": [
+          {
+            "value": "3.73",
+            "unit": "F g^-1",
+            "conditions": "bulk Ni-HHTP at 100 mV s^-1"
+          },
+          {
+            "value": "8.02",
+            "unit": "F g^-1",
+            "conditions": "Ni-HHTP-Disc at 100 mV s^-1"
+          },
+          {
+            "value": "39.7",
+            "unit": "F g^-1",
+            "conditions": "Ni-HHTP-Flower at 100 mV s^-1"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "4.67",
+          "hkl": "unspecified",
+          "phase": "MOF",
+          "d_spacing": "18.9 Å"
+        }
+      ],
+      "FTIR": [
+        {
+          "wavenumber": "3410, 3306",
+          "intensity": "unspecified",
+          "assignment": "O-H stretches (uncoordinated HHTP)"
+        },
+        {
+          "wavenumber": "3250",
+          "intensity": "broad",
+          "assignment": "water within structure"
+        }
+      ],
+      "XPS": [
+        {
+          "element": "Ni 2p",
+          "peak_position": "853.5, 871.2 (Ni0); 856.4, 873.9 (Ni2+)",
+          "chemical_state": "Ni0 and Ni2+"
+        },
+        {
+          "element": "C 1s",
+          "peak_position": "284.5, 286, 288.4",
+          "chemical_state": "C=C, C-O, C=O"
+        },
+        {
+          "element": "O 1s",
+          "peak_position": "531.4, 533",
+          "chemical_state": "Ni-O, H-O"
+        }
+      ]
+    },
+    "synthesis_method": "Electrosynthesis (anodic deposition) and solvothermal",
+    "reaction_conditions": {
+      "electrosynthesis": {
+        "potential": "+0.25 V vs Ag/AgCl",
+        "time": "2 h",
+        "temperature": "room temperature",
+        "solvent": "H2O with 1.17 mM KCl",
+        "ligand_concentration": "3 mg HHTP in 22 mL"
+      },
+      "solvothermal": {
+        "temperature": "85 °C",
+        "time": "12 h",
+        "solvent": "H2O"
+      }
+    },
+    "raw_materials": "Nickel foam (NF), 2,3,6,7,10,11-Hexahydroxytriphenylene (HHTP), Nickel acetate tetrahydrate (for solvothermal)",
+    "composition_structure": null,
+    "application": "Electrochemical energy storage (supercapacitors)",
+    "morphologies": [
+      {
+        "name": "Ni-HHTP-Flower",
+        "description": "Flower-like morphology with mesoporous features",
+        "formation_conditions": "3 mg HHTP in 22 mL electrolyte"
+      },
+      {
+        "name": "Ni-HHTP-Disc",
+        "description": "Round disc-shaped particles",
+        "formation_conditions": "5 mg HHTP in 22 mL electrolyte"
+      }
+    ]
+  },
+  {
+    "MOF_name": "Cu-THQ",
+    "molecular_formula": "Cu3THQ2",
+    "source_paper": "",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "square planar",
+      "coordination_geometry": "square planar",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "tetrahydroxy-1,4-benzoquinone (THQ)",
+      "functional_groups": "-OH",
+      "conformation": "planar"
+    },
+    "topology": "",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "10^-10 - 10^2",
+            "unit": "S/cm",
+            "conditions": {
+              "temperature": "room temperature",
+              "test_method": "four-point probe method",
+              "form": "pressed pellet"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [],
+      "FTIR": [],
+      "XPS": []
+    },
+    "synthesis_method": "Synthesized according to literature procedure with slight decrease in reaction time.",
+    "reaction_conditions": {
+      "sketch": "",
+      "temperature": "",
+      "pressure": "",
+      "solvent": ""
+    },
+    "raw_materials": "THQ, Cu(II) salt",
+    "composition_structure": "",
+    "application": "electrically conductive materials"
+  },
+  {
+    "MOF_name": "Cu-THQ-BPY",
+    "molecular_formula": "",
+    "source_paper": "",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "octahedral",
+      "coordination_geometry": "octahedral",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "4,4'-Bipyridyl (BPY)",
+      "functional_groups": "pyridyl",
+      "conformation": "linear"
+    },
+    "topology": "",
+    "Dimensionality": "3D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "",
+            "unit": "S/cm",
+            "conditions": {
+              "temperature": "room temperature",
+              "test_method": "four-point probe method",
+              "form": "pressed pellet"
+            }
+          }
+        ]
+      },
+      {
+        "name": "interlayer distance",
+        "values": [
+          {
+            "value": "8.1",
+            "unit": "Å",
+            "conditions": {
+              "test_method": "PXRD"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "3.2",
+          "hkl": "",
+          "phase": "MOF"
+        }
+      ],
+      "FTIR": [
+        {
+          "wavenumber": "1600",
+          "intensity": "",
+          "assignment": "BPY"
+        },
+        {
+          "wavenumber": "1330",
+          "intensity": "",
+          "assignment": "BPY"
+        }
+      ],
+      "XPS": [
+        {
+          "element": "Cu 2p 3/2",
+          "peak_position": "934",
+          "chemical_state": "Cu(II)"
+        },
+        {
+          "element": "Cu 2p 3/2",
+          "peak_position": "932",
+          "chemical_state": "Cu(I)/Cu(0)"
+        }
+      ]
+    },
+    "synthesis_method": "Post-synthetic modification of Cu-THQ by inserting BPY pillar-ligands.",
+    "reaction_conditions": {
+      "sketch": "Room temperature, 24 hours, water as solvent",
+      "temperature": "room temperature",
+      "pressure": "",
+      "solvent": "water"
+    },
+    "raw_materials": "Cu-THQ, BPY",
+    "composition_structure": "",
+    "application": "electrically conductive materials"
+  },
+  {
+    "MOF_name": "Cu-THQ-DPE",
+    "molecular_formula": "",
+    "source_paper": "",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "octahedral",
+      "coordination_geometry": "octahedral",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "1,2-di(4-pyridyl)ethylene (DPE)",
+      "functional_groups": "pyridyl",
+      "conformation": "linear"
+    },
+    "topology": "",
+    "Dimensionality": "3D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "",
+            "unit": "S/cm",
+            "conditions": {
+              "temperature": "room temperature",
+              "test_method": "four-point probe method",
+              "form": "pressed pellet"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [],
+      "FTIR": [
+        {
+          "wavenumber": "1600",
+          "intensity": "",
+          "assignment": "DPE"
+        },
+        {
+          "wavenumber": "1330",
+          "intensity": "",
+          "assignment": "DPE"
+        }
+      ],
+      "XPS": []
+    },
+    "synthesis_method": "Post-synthetic modification of Cu-THQ by inserting DPE pillar-ligands.",
+    "reaction_conditions": {
+      "sketch": "Room temperature, 24 hours, water as solvent",
+      "temperature": "room temperature",
+      "pressure": "",
+      "solvent": "water"
+    },
+    "raw_materials": "Cu-THQ, DPE",
+    "composition_structure": "",
+    "application": "electrically conductive materials"
+  },
+  {
+    "MOF_name": "Fe-DAAQ",
+    "molecular_formula": "",
+    "source_paper": "",
+    "metal_node": {
+      "metal_connector": "Fe(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "1,5-diaminoanthraquinone (DAAQ)",
+      "functional_groups": "-NH2, -C=O",
+      "conformation": "planar"
+    },
+    "topology": "",
+    "Dimensionality": "",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [],
+    "characterization_data": {
+      "XRD": [],
+      "FTIR": [],
+      "XPS": []
+    },
+    "synthesis_method": "Reaction of FeSO4 with DAAQ in DMF at 130 °C for 16 hours.",
+    "reaction_conditions": {
+      "sketch": "130 °C, 16 hours, DMF as solvent",
+      "temperature": "130",
+      "unit": "°C",
+      "pressure": "",
+      "solvent": "DMF"
+    },
+    "raw_materials": "FeSO4, DAAQ",
+    "composition_structure": "",
+    "application": "energy storage"
+  },
+  {
+    "MOF_name": "EC-MOF",
+    "molecular_formula": "Co(C2H3N2)2",
+    "source_paper": "10.1002/adma.201806672",
+    "metal_node": {
+      "metal_connector": "Co(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "imidazole",
+      "functional_groups": "",
+      "conformation": ""
+    },
+    "topology": "",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "10^-10 - 10^2",
+            "unit": "S/cm",
+            "conditions": {
+              "temperature": "room temperature",
+              "test_method": "four-point probe method",
+              "form": "pressed pellet"
+            }
+          }
+        ]
+      },
+      {
+        "name": "overpotential for HER",
+        "values": [
+          {
+            "value": "311",
+            "unit": "mV",
+            "conditions": {
+              "current_density": "10 mA cm^-2",
+              "electrolyte": "1 M KOH"
+            }
+          },
+          {
+            "value": "398",
+            "unit": "mV",
+            "conditions": {
+              "current_density": "100 mA cm^-2",
+              "electrolyte": "1 M KOH"
+            }
+          }
+        ]
+      },
+      {
+        "name": "overpotential for OER",
+        "values": [
+          {
+            "value": "334",
+            "unit": "mV",
+            "conditions": {
+              "current_density": "10 mA cm^-2",
+              "electrolyte": "1 M KOH"
+            }
+          },
+          {
+            "value": "432",
+            "unit": "mV",
+            "conditions": {
+              "current_density": "100 mA cm^-2",
+              "electrolyte": "1 M KOH"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "",
+          "hkl": "",
+          "phase": "MOF"
+        }
+      ],
+      "FTIR": [],
+      "XPS": []
+    },
+    "synthesis_method": "Vapor-phase conversion of echinops-like Co(OH)F precursor with imidazole at 280 °C under Ar atmosphere",
+    "reaction_conditions": {
+      "sketch": "280 °C, 2 hours, Ar atmosphere",
+      "temperature": "280",
+      "unit": "°C",
+      "pressure": "",
+      "solvent": ""
+    },
+    "raw_materials": "Co(OH)F, imidazole",
+    "composition_structure": "",
+    "application": "water splitting (HER and OER)"
+  },
+  {
+    "MOF_name": "Co3S4/EC-MOF",
+    "molecular_formula": "",
+    "source_paper": "10.1002/adma.201806672",
+    "metal_node": {
+      "metal_connector": "Co(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "imidazole",
+      "functional_groups": "",
+      "conformation": ""
+    },
+    "topology": "",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "overpotential for HER",
+        "values": [
+          {
+            "value": "84",
+            "unit": "mV",
+            "conditions": {
+              "current_density": "10 mA cm^-2",
+              "electrolyte": "1 M KOH"
+            }
+          },
+          {
+            "value": "183",
+            "unit": "mV",
+            "conditions": {
+              "current_density": "100 mA cm^-2",
+              "electrolyte": "1 M KOH"
+            }
+          }
+        ]
+      },
+      {
+        "name": "overpotential for OER",
+        "values": [
+          {
+            "value": "226",
+            "unit": "mV",
+            "conditions": {
+              "current_density": "10 mA cm^-2",
+              "electrolyte": "1 M KOH"
+            }
+          },
+          {
+            "value": "336",
+            "unit": "mV",
+            "conditions": {
+              "current_density": "100 mA cm^-2",
+              "electrolyte": "1 M KOH"
+            }
+          }
+        ]
+      },
+      {
+        "name": "BET surface area",
+        "values": [
+          {
+            "value": "110.1",
+            "unit": "m^2 g^-1",
+            "conditions": {
+              "test_method": "N2 adsorption/desorption"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "2theta": "",
+          "hkl": "(311), (400), (440)",
+          "phase": "Co3S4"
+        }
+      ],
+      "FTIR": [],
+      "XPS": [
+        {
+          "element": "Co 2p3/2",
+          "peak_position": "778.9, 781.1, 782.9",
+          "chemical_state": "Co0, Co3+, Co2+"
+        },
+        {
+          "element": "S 2p",
+          "peak_position": "162.4, 163.4, 164.1, 165.1",
+          "chemical_state": "Co-S, S-S"
+        }
+      ]
+    },
+    "synthesis_method": "Partial vulcanization of EC-MOF with Na2S solution at 90 °C for 2 hours",
+    "reaction_conditions": {
+      "sketch": "90 °C, 2 hours, Na2S solution",
+      "temperature": "90",
+      "unit": "°C",
+      "pressure": "",
+      "solvent": "water"
+    },
+    "raw_materials": "EC-MOF, Na2S",
+    "composition_structure": "",
+    "application": "water splitting (HER and OER)"
+  },
+  {
+    "MOF_name": "SE-MOF",
+    "molecular_formula": "Co(C2H3N2)2",
+    "source_paper": "10.1002/adma.201806672",
+    "metal_node": {
+      "metal_connector": "Co(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "imidazole",
+      "functional_groups": "",
+      "conformation": ""
+    },
+    "topology": "",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "overpotential for HER",
+        "values": [
+          {
+            "value": "",
+            "unit": "mV",
+            "conditions": {
+              "current_density": "10 mA cm^-2",
+              "electrolyte": "1 M KOH"
+            }
+          }
+        ]
+      },
+      {
+        "name": "overpotential for OER",
+        "values": [
+          {
+            "value": "",
+            "unit": "mV",
+            "conditions": {
+              "current_density": "10 mA cm^-2",
+              "electrolyte": "1 M KOH"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [],
+      "FTIR": [],
+      "XPS": []
+    },
+    "synthesis_method": "Vapor-phase conversion of setaria-like Co(OH)F precursor with imidazole at 280 °C under Ar atmosphere",
+    "reaction_conditions": {
+      "sketch": "280 °C, 2 hours, Ar atmosphere",
+      "temperature": "280",
+      "unit": "°C",
+      "pressure": "",
+      "solvent": ""
+    },
+    "raw_materials": "Co(OH)F, imidazole",
+    "composition_structure": "",
+    "application": "water splitting (HER and OER)"
+  },
+  {
+    "MOF_name": "CH-MOF",
+    "molecular_formula": "Co(C2H3N2)2",
+    "source_paper": "10.1002/adma.201806672",
+    "metal_node": {
+      "metal_connector": "Co(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "imidazole",
+      "functional_groups": "",
+      "conformation": ""
+    },
+    "topology": "",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "overpotential for HER",
+        "values": [
+          {
+            "value": "",
+            "unit": "mV",
+            "conditions": {
+              "current_density": "10 mA cm^-2",
+              "electrolyte": "1 M KOH"
+            }
+          }
+        ]
+      },
+      {
+        "name": "overpotential for OER",
+        "values": [
+          {
+            "value": "",
+            "unit": "mV",
+            "conditions": {
+              "current_density": "10 mA cm^-2",
+              "electrolyte": "1 M KOH"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [],
+      "FTIR": [],
+      "XPS": []
+    },
+    "synthesis_method": "Vapor-phase conversion of chrysanthemum-like Co(OH)F precursor with imidazole at 280 °C under Ar atmosphere",
+    "reaction_conditions": {
+      "sketch": "280 °C, 2 hours, Ar atmosphere",
+      "temperature": "280",
+      "unit": "°C",
+      "pressure": "",
+      "solvent": ""
+    },
+    "raw_materials": "Co(OH)F, imidazole",
+    "composition_structure": "",
+    "application": "water splitting (HER and OER)"
+  },
+  {
+    "MOF_name": "Cu3(HHTP)2",
+    "molecular_formula": "Cu3(C18H12O6)2",
+    "source_paper": "10.1002/anie.201709558",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "hexagonal"
+    },
+    "topology": "",
+    "Dimensionality": "2D",
+    "Crystal_system": "hexagonal",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "0.02",
+            "unit": "S/cm",
+            "conditions": {
+              "temperature": "room temperature",
+              "test_method": "two-probe method",
+              "form": "thin film (40 cycles)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "activation energy",
+        "values": [
+          {
+            "value": "0.16",
+            "unit": "eV",
+            "conditions": {
+              "test_method": "temperature-dependent conductivity measurement"
+            }
+          }
+        ]
+      },
+      {
+        "name": "gas sensing response to NH3",
+        "values": [
+          {
+            "value": "129",
+            "unit": "% resistance change",
+            "conditions": {
+              "concentration": "100 ppm",
+              "temperature": "room temperature",
+              "form": "thin film (10 cycles)"
+            }
+          },
+          {
+            "value": "1.36",
+            "unit": "min",
+            "conditions": {
+              "parameter": "response time",
+              "concentration": "100 ppm NH3"
+            }
+          },
+          {
+            "value": "9.11",
+            "unit": "min",
+            "conditions": {
+              "parameter": "recovery time",
+              "concentration": "100 ppm NH3"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "matches simulated pattern"
+        }
+      ],
+      "FTIR": [
+        {
+          "wavenumber": "3170, 877, 856",
+          "unit": "cm-1",
+          "assignment": "NH3-Cu interactions"
+        }
+      ],
+      "XPS": [],
+      "UPS": [
+        {
+          "observation": "Fermi level increased by 1.13 eV after NH3 adsorption",
+          "conditions": "after exposure to NH3"
+        }
+      ]
+    },
+    "synthesis_method": "Spray layer-by-layer liquid-phase epitaxial method",
+    "reaction_conditions": {
+      "sketch": "Alternate spraying of copper acetate (0.1 mM) and HHTP (0.01 mM) solutions with ethanol rinsing between steps",
+      "temperature": "room temperature",
+      "solvent": "ethanol"
+    },
+    "raw_materials": "Copper(II) acetate, HHTP ligand",
+    "composition_structure": "2D hexagonal layers with AB stacking (3.3 Å interlayer distance), honeycomb-like porous structure with 1.8 nm channels",
+    "application": "Chemiresistive gas sensing (NH3 detection)"
+  },
+  {
+    "MOF_name": "Cu3(HHTP)2 powder",
+    "molecular_formula": "Cu3(C18H12O6)2",
+    "source_paper": "10.1002/anie.201709558",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "hexagonal"
+    },
+    "topology": "",
+    "Dimensionality": "2D",
+    "Crystal_system": "hexagonal",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "gas sensing response to NH3",
+        "values": [
+          {
+            "value": "7",
+            "unit": "% resistance change",
+            "conditions": {
+              "concentration": "80 ppm",
+              "temperature": "room temperature",
+              "form": "powder thick film"
+            }
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure remains unchanged after NH3 exposure"
+        }
+      ],
+      "FTIR": [],
+      "XPS": []
+    },
+    "synthesis_method": "Solution reaction at 65°C for 24 hours",
+    "reaction_conditions": {
+      "sketch": "Mixing copper acetate and HHTP solutions in methanol at 65°C",
+      "temperature": "65",
+      "unit": "°C",
+      "solvent": "methanol",
+      "time": "24 h"
+    },
+    "raw_materials": "Copper(II) acetate, HHTP ligand",
+    "composition_structure": "",
+    "application": "Chemiresistive gas sensing"
+  },
+  {
+    "MOF_name": "Cu−HHTC",
+    "molecular_formula": "",
+    "source_paper": "10.1021/acs.accounts.3c00718",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,8,9,14,15-hexahydroxyltribenzocyclyne (HHTC)",
+      "functional_groups": "hydroxyl",
+      "conformation": "planar"
+    },
+    "topology": "",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "3.0×10^-3",
+            "unit": "S/cm",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "BET surface area",
+        "values": [
+          {
+            "value": "1193",
+            "unit": "m²/g",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "excellent crystallinity"
+        }
+      ]
+    },
+    "synthesis_method": "Solution reaction with Cu(II) salts and HHTC ligand",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "Copper(II) salts, HHTC ligand",
+    "composition_structure": "2D hexagonal layers with intrinsic pockets (~3.8 Å)",
+    "application": "Electrochemical applications, metal hosting"
+  },
+  {
+    "MOF_name": "Cu−EP",
+    "molecular_formula": "",
+    "source_paper": "10.1021/acs.accounts.3c00718",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "ethynylphenanthrene (EP)",
+      "functional_groups": "alkyne",
+      "conformation": "planar"
+    },
+    "topology": "",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "1.0×10^-3",
+            "unit": "S/cm",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "BET surface area",
+        "values": [
+          {
+            "value": "1502",
+            "unit": "m²/g",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "pore width",
+        "values": [
+          {
+            "value": "6.5",
+            "unit": "Å",
+            "conditions": "intrinsic pockets"
+          },
+          {
+            "value": "23.5",
+            "unit": "Å",
+            "conditions": "hexagonal channels"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "excellent crystallinity"
+        }
+      ]
+    },
+    "synthesis_method": "Solution reaction with Cu(II) salts and EP ligand",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "Copper(II) salts, EP ligand",
+    "composition_structure": "2D structure with large intrinsic pockets (~6.5 Å)",
+    "application": "Ion selectivity (Cs+ over Li+)"
+  },
+  {
+    "MOF_name": "Cu−THQ−BPY",
+    "molecular_formula": "",
+    "source_paper": "10.1021/acs.accounts.3c00718",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "tetrahydroxy-1,4-benzoquinone (THQ) and 4,4′-bipyridyl (BPY)",
+      "functional_groups": "hydroxyl, pyridyl",
+      "conformation": ""
+    },
+    "topology": "",
+    "Dimensionality": "3D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "BET surface area",
+        "values": [
+          {
+            "value": "196.9",
+            "unit": "m²/g",
+            "conditions": "after pillar insertion"
+          }
+        ]
+      },
+      {
+        "name": "capacitance",
+        "values": [
+          {
+            "value": "66.1",
+            "unit": "F/g",
+            "conditions": "at 10 mV/s in 1M aqueous KOH"
+          }
+        ]
+      },
+      {
+        "name": "pore width",
+        "values": [
+          {
+            "value": "7.3",
+            "unit": "Å",
+            "conditions": "between adjacent BPY ligands"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XPS": [
+        {
+          "element": "Cu 2p3/2",
+          "peak_position": "932",
+          "unit": "eV",
+          "chemical_state": "Cu(I/0) after pillar insertion"
+        }
+      ]
+    },
+    "synthesis_method": "Post-synthetic pillar insertion of BPY into 2D Cu−THQ framework",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "Cu−THQ framework, 4,4′-bipyridyl",
+    "composition_structure": "3D structure formed by pillar insertion into 2D Cu−THQ",
+    "application": "Electrochemical applications"
+  },
+  {
+    "MOF_name": "Fe−HHTP",
+    "molecular_formula": "",
+    "source_paper": "10.1021/acs.accounts.3c00718",
+    "metal_node": {
+      "metal_connector": "Fe",
+      "coordination": "",
+      "coordination_geometry": "octahedral",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": ""
+    },
+    "topology": "",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "BET surface area",
+        "values": [
+          {
+            "value": "675",
+            "unit": "m²/g",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "interlayer distance",
+        "values": [
+          {
+            "value": "12.9",
+            "unit": "Å",
+            "conditions": "with DMF at axial positions"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure confirmed"
+        }
+      ]
+    },
+    "synthesis_method": "Solution reaction with Fe and HHTP ligand",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "DMF"
+    },
+    "raw_materials": "Iron, HHTP ligand",
+    "composition_structure": "2D layers with expanded interlayer distance due to DMF at axial positions",
+    "application": "Pseudocapacitance"
+  },
+  {
+    "MOF_name": "Zn−HHTP−H2O",
+    "molecular_formula": "",
+    "source_paper": "10.1021/acs.accounts.3c00718",
+    "metal_node": {
+      "metal_connector": "Zn",
+      "coordination": "",
+      "coordination_geometry": "octahedral",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": ""
+    },
+    "topology": "",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "4.5×10^-2",
+            "unit": "S/cm",
+            "conditions": "at 343K and 95% RH"
+          }
+        ]
+      },
+      {
+        "name": "proton conductivity",
+        "values": [
+          {
+            "value": "1.6×10^-5",
+            "unit": "S/cm",
+            "conditions": "at 343K and 95% RH"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure confirmed"
+        }
+      ],
+      "TGA": [
+        {
+          "observation": "No significant weight loss at 130-230°C",
+          "conditions": "for pristine Zn−HHTP−H2O"
+        }
+      ]
+    },
+    "synthesis_method": "Solution reaction with Zn and HHTP ligand",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "Zinc, HHTP ligand",
+    "composition_structure": "2D structure with water at axial positions",
+    "application": "Proton-electron dual conduction"
+  },
+  {
+    "MOF_name": "Zn−HHTP−urea",
+    "molecular_formula": "",
+    "source_paper": "10.1021/acs.accounts.3c00718",
+    "metal_node": {
+      "metal_connector": "Zn",
+      "coordination": "",
+      "coordination_geometry": "octahedral",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": ""
+    },
+    "topology": "",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "4.5×10^-2",
+            "unit": "S/cm",
+            "conditions": "at 343K and 95% RH"
+          }
+        ]
+      },
+      {
+        "name": "proton conductivity",
+        "values": [
+          {
+            "value": "1.0×10^-4",
+            "unit": "S/cm",
+            "conditions": "at 343K and 95% RH"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure retained after urea substitution"
+        }
+      ],
+      "TGA": [
+        {
+          "observation": "Significant weight loss at 130-230°C",
+          "conditions": "due to urea incorporation"
+        }
+      ]
+    },
+    "synthesis_method": "Post-synthetic urea substitution in Zn−HHTP−H2O",
+    "reaction_conditions": {
+      "temperature": "85",
+      "unit": "°C",
+      "solvent": "ethylene glycol",
+      "time": "2 h"
+    },
+    "raw_materials": "Zn−HHTP−H2O, urea",
+    "composition_structure": "2D structure with urea at axial positions",
+    "application": "Proton-electron dual conduction"
+  },
+  {
+    "MOF_name": "Cu3(HHTP)2",
+    "molecular_formula": "",
+    "source_paper": "10.1002/cey2.70012",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "planar"
+    },
+    "topology": "honeycomb",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "high",
+            "unit": "S/cm",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "pore diameter",
+        "values": [
+          {
+            "value": "2.0",
+            "unit": "nm",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "specific capacity",
+        "values": [
+          {
+            "value": "120",
+            "unit": "mAh g^-1",
+            "conditions": "at 4000 mA g^-1"
+          }
+        ]
+      },
+      {
+        "name": "capacity retention",
+        "values": [
+          {
+            "value": "75",
+            "unit": "%",
+            "conditions": "after 500 cycles at ~18 C"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure confirmed"
+        }
+      ]
+    },
+    "synthesis_method": "Solution reaction with Cu(II) salts and HHTP ligand",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "Copper(II) salts, HHTP ligand",
+    "composition_structure": "2D structure with uniform regular hexagons forming a honeycomb macropore structure",
+    "application": "Zinc-ion battery cathode"
+  },
+  {
+    "MOF_name": "V-MOF-48@CNTF",
+    "molecular_formula": "",
+    "source_paper": "10.1002/cey2.70012",
+    "metal_node": {
+      "metal_connector": "V",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "unspecified",
+      "functional_groups": "",
+      "conformation": ""
+    },
+    "topology": "3D",
+    "Dimensionality": "3D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "volume capacity",
+        "values": [
+          {
+            "value": "101.8",
+            "unit": "mAh cm^-3",
+            "conditions": "at 0.1 A cm^-3"
+          }
+        ]
+      },
+      {
+        "name": "capacity retention",
+        "values": [
+          {
+            "value": "85",
+            "unit": "%",
+            "conditions": "after 400 cycles"
+          }
+        ]
+      },
+      {
+        "name": "Coulombic efficiency",
+        "values": [
+          {
+            "value": "100",
+            "unit": "%",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "rate performance",
+        "values": [
+          {
+            "value": "64.3",
+            "unit": "%",
+            "conditions": "from 0.1 to 5 A cm^-3"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure confirmed"
+        }
+      ],
+      "XPS": [
+        {
+          "observation": "binding sites of zinc ions originate from the organic moiety"
+        }
+      ]
+    },
+    "synthesis_method": "Self-sacrificing solvothermal process",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified",
+      "time": "48 h"
+    },
+    "raw_materials": "V-MOF precursors, carbon nanotube fibers (CNTFs)",
+    "composition_structure": "3D conductive V-MOF arrays on CNTFs",
+    "application": "Zinc-ion battery cathode"
+  },
+  {
+    "MOF_name": "Cu-HHTP/MX",
+    "molecular_formula": "",
+    "source_paper": "10.1002/cey2.70012",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "planar"
+    },
+    "topology": "sandwich-like heterostructure",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "specific capacity",
+        "values": [
+          {
+            "value": "260.1",
+            "unit": "mAh g^-1",
+            "conditions": "at 0.1 A g^-1"
+          }
+        ]
+      },
+      {
+        "name": "energy density",
+        "values": [
+          {
+            "value": "200.96",
+            "unit": "Wh kg^-1",
+            "conditions": "at 0.1 A g^-1"
+          }
+        ]
+      },
+      {
+        "name": "specific capacity",
+        "values": [
+          {
+            "value": "166.9",
+            "unit": "mAh g^-1",
+            "conditions": "after 1000 cycles at 4 A g^-1"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure confirmed"
+        }
+      ],
+      "XPS": [
+        {
+          "observation": "reversible insertion/extraction of Zn^2+ confirmed"
+        }
+      ]
+    },
+    "synthesis_method": "Electrostatic self-assembly",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "Cu-HHTP, polydienyl dimethylammonium chloride-modified V2CTx MXene (MX)",
+    "composition_structure": "Sandwich-like structure with alternating layers of Cu-HHTP and MX nanosheets",
+    "application": "Zinc-ion battery cathode"
+  },
+  {
+    "MOF_name": "Cu-BTA-H",
+    "molecular_formula": "",
+    "source_paper": "10.1002/cey2.70012",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "1,2,4,5-phenyltetramine (BTA)",
+      "functional_groups": "amino",
+      "conformation": "linear"
+    },
+    "topology": "1D",
+    "Dimensionality": "1D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "specific capacity",
+        "values": [
+          {
+            "value": "330",
+            "unit": "mAh g^-1",
+            "conditions": "at 0.2 A g^-1"
+          }
+        ]
+      },
+      {
+        "name": "capacity retention",
+        "values": [
+          {
+            "value": "106.1",
+            "unit": "mAh g^-1",
+            "conditions": "after 500 cycles"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "TEM": [
+        {
+          "observation": "aggregative rod-like structure"
+        }
+      ]
+    },
+    "synthesis_method": "Coordination of Cu^2+ ions with BTA ligand",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "Copper(II) salts, BTA ligand",
+    "composition_structure": "1D π-d conjugated structure",
+    "application": "Zinc-ion battery cathode"
+  },
+  {
+    "MOF_name": "NiVO-BTA",
+    "molecular_formula": "",
+    "source_paper": "10.1002/cey2.70012",
+    "metal_node": {
+      "metal_connector": "Ni",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "1,2,4,5-phenyltetramine (BTA)",
+      "functional_groups": "amino",
+      "conformation": "linear"
+    },
+    "topology": "intercalated",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "specific capacity",
+        "values": [
+          {
+            "value": "464.2",
+            "unit": "mAh g^-1",
+            "conditions": "at 0.2 A g^-1"
+          }
+        ]
+      },
+      {
+        "name": "specific capacity",
+        "values": [
+          {
+            "value": "241.9",
+            "unit": "mAh g^-1",
+            "conditions": "after 1600 cycles at 5 A g^-1"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure confirmed"
+        }
+      ],
+      "XPS": [
+        {
+          "observation": "changes in valence state of vanadium and ─C═N/─C─N bonds"
+        }
+      ]
+    },
+    "synthesis_method": "Intercalation of Ni-BTA into VOx interlayer space",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "Ni^2+ ions, vanadium oxide (VOx), BTA ligand",
+    "composition_structure": "Ni-BTA-intercalated VOx nanoplatelets",
+    "application": "Zinc-ion battery cathode"
+  },
+  {
+    "MOF_name": "Cu-TBPQ MOF",
+    "molecular_formula": "",
+    "source_paper": "10.1002/cey2.70012",
+    "metal_node": {
+      "metal_connector": "Cu",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,6,7,13,14,17,18-octahydroxytetrabenzo[a,c,l,n]pentacene-10,21-dione (TBPQ)",
+      "functional_groups": "quinone, catechol",
+      "conformation": "planar"
+    },
+    "topology": "honeycomb",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "4×10^-2",
+            "unit": "mS cm^-1",
+            "conditions": "room temperature"
+          }
+        ]
+      },
+      {
+        "name": "specific surface area",
+        "values": [
+          {
+            "value": "220",
+            "unit": "m^2 g^-1",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "specific capacity",
+        "values": [
+          {
+            "value": "371.2",
+            "unit": "mAh g^-1",
+            "conditions": "at 50 mA g^-1"
+          }
+        ]
+      },
+      {
+        "name": "capacity retention",
+        "values": [
+          {
+            "value": "88",
+            "unit": "%",
+            "conditions": "after 500 cycles at 2 A g^-1"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "TEM": [
+        {
+          "observation": "particle morphology with visible honeycomb pore structure"
+        }
+      ]
+    },
+    "synthesis_method": "One-pot solvothermal method",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "Copper salts, TBPQ ligand",
+    "composition_structure": "2D quinone-containing Cu-catechol MOF",
+    "application": "Zinc-ion battery cathode"
+  },
+  {
+    "MOF_name": "Cu-TOC",
+    "molecular_formula": "",
+    "source_paper": "10.1002/cey2.70012",
+    "metal_node": {
+      "metal_connector": "Cu",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,5,6,8,9,11,12-octahydroxy-tetraoxa[8]circulene (8OH-TOC)",
+      "functional_groups": "hydroxyl",
+      "conformation": "planar"
+    },
+    "topology": "tetragonal",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "0.2",
+            "unit": "S cm^-1",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "specific capacity",
+        "values": [
+          {
+            "value": "189.7",
+            "unit": "mAh g^-1",
+            "conditions": "at 50 mA g^-1"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure confirmed"
+        }
+      ],
+      "XPS": [
+        {
+          "observation": "reversible insertion/extraction of Zn^2+ confirmed"
+        }
+      ]
+    },
+    "synthesis_method": "Coordination of Cu with 8OH-TOC ligand",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "Copper salts, 8OH-TOC ligand",
+    "composition_structure": "2D tetragonal structure",
+    "application": "Zinc-ion battery cathode"
+  },
+  {
+    "MOF_name": "Ni-HATP",
+    "molecular_formula": "",
+    "source_paper": "10.1021/acsmaterialslett.4c02110",
+    "metal_node": {
+      "metal_connector": "Ni(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "hexaaminotriphenylene (HATP)",
+      "functional_groups": "amino",
+      "conformation": "planar"
+    },
+    "topology": "honeycomb",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "40",
+            "unit": "S cm^-1",
+            "conditions": "room temperature"
+          }
+        ]
+      },
+      {
+        "name": "specific surface area",
+        "values": [
+          {
+            "value": "629.9",
+            "unit": "m^2 g^-1",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure confirmed"
+        }
+      ],
+      "Raman": [
+        {
+          "observation": "stable crystalline structure during ORR"
+        }
+      ]
+    },
+    "synthesis_method": "Solvothermal synthesis at 65°C for 15 h in ammonia-aqueous solution",
+    "reaction_conditions": {
+      "temperature": "65",
+      "solvent": "ammonia-aqueous solution",
+      "time": "15 h"
+    },
+    "raw_materials": "Ni(II) salt, HATP linker",
+    "composition_structure": "2D structure with dense Ni-N4 catalytic sites",
+    "application": "ORR electrocatalysis"
+  },
+  {
+    "MOF_name": "Co-HHTP",
+    "molecular_formula": "",
+    "source_paper": "10.1021/acsmaterialslett.4c02110",
+    "metal_node": {
+      "metal_connector": "Co(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "planar"
+    },
+    "topology": "honeycomb",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "8×10^-4",
+            "unit": "S cm^-1",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "specific surface area",
+        "values": [
+          {
+            "value": "666",
+            "unit": "m^2 g^-1",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure confirmed"
+        }
+      ]
+    },
+    "synthesis_method": "Solvothermal synthesis with Co(II) and HHTP linker",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified",
+      "time": "unspecified"
+    },
+    "raw_materials": "Co(II) salt, HHTP linker",
+    "composition_structure": "2D structure with Co-O4 moiety",
+    "application": "ORR electrocatalysis"
+  },
+  {
+    "MOF_name": "Cu-HHTP",
+    "molecular_formula": "",
+    "source_paper": "10.1021/acsmaterialslett.4c02110",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "planar"
+    },
+    "topology": "honeycomb",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "high",
+            "unit": "S/cm",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "pore diameter",
+        "values": [
+          {
+            "value": "2.0",
+            "unit": "nm",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure confirmed"
+        }
+      ]
+    },
+    "synthesis_method": "Solution reaction with Cu(II) salts and HHTP ligand",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified"
+    },
+    "raw_materials": "Copper(II) salts, HHTP ligand",
+    "composition_structure": "2D structure with uniform regular hexagons forming a honeycomb macropore structure",
+    "application": "Zinc-ion battery cathode"
+  },
+  {
+    "MOF_name": "Fe-HHTP",
+    "molecular_formula": "",
+    "source_paper": "10.1021/acs.accounts.4c00280",
+    "metal_node": {
+      "metal_connector": "Fe(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "planar"
+    },
+    "topology": "2D planar",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "interlayer spacing",
+        "values": [
+          {
+            "value": "12.9, 5.5, 3.7",
+            "unit": "Å",
+            "conditions": "unspecified"
+          }
+        ]
+      },
+      {
+        "name": "electrochemical surface area (ECSA)",
+        "values": [
+          {
+            "value": "150% higher",
+            "unit": "compared to Cu/Ni-HHTP",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "EPR": [
+        {
+          "signal": "broadened signal from HHTP semiquinone radical",
+          "comment": "influence of nearby spin-spin relaxation from Fe(II)"
+        }
+      ],
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure confirmed"
+        }
+      ]
+    },
+    "synthesis_method": "Solvothermal synthesis",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified",
+      "time": "unspecified"
+    },
+    "raw_materials": "Fe(II) salt, HHTP linker",
+    "composition_structure": "2D structure with dense Fe-O4 catalytic sites",
+    "application": "ORR electrocatalysis"
+  },
+  {
+    "MOF_name": "Cu-HHTP",
+    "molecular_formula": "",
+    "source_paper": "10.1021/acs.accounts.4c00280",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "planar"
+    },
+    "topology": "2D planar",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "high",
+            "unit": "S/cm",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure confirmed"
+        }
+      ]
+    },
+    "synthesis_method": "Solution reaction with Cu(II) salts and HHTP ligand",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified",
+      "time": "unspecified"
+    },
+    "raw_materials": "Copper(II) salts, HHTP ligand",
+    "composition_structure": "2D structure with uniform regular hexagons forming a honeycomb macropore structure",
+    "application": "Zinc-ion battery cathode"
+  },
+  {
+    "MOF_name": "Ni-HHTP",
+    "molecular_formula": "",
+    "source_paper": "10.1021/acs.accounts.4c00280",
+    "metal_node": {
+      "metal_connector": "Ni(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+      "functional_groups": "hydroxyl",
+      "conformation": "planar"
+    },
+    "topology": "2D planar",
+    "Dimensionality": "2D",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "1.23×10^-4",
+            "unit": "S cm^-1",
+            "conditions": "Ni-HHTP-Flower morphology"
+          },
+          {
+            "value": "9.00×10^-6",
+            "unit": "S cm^-1",
+            "conditions": "Ni-HHTP-Disc morphology"
+          }
+        ]
+      },
+      {
+        "name": "specific capacitance",
+        "values": [
+          {
+            "value": "39.7",
+            "unit": "F g^-1",
+            "conditions": "Ni-HHTP-Flower morphology"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "phase": "MOF",
+          "comment": "structure confirmed"
+        }
+      ]
+    },
+    "synthesis_method": "Electrochemical synthesis on nickel foam",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified",
+      "time": "unspecified"
+    },
+    "raw_materials": "Ni(II) salt, HHTP linker",
+    "composition_structure": "2D structure with Ni-O4 moiety",
+    "application": "Enhanced capacitance"
+  },
+  {
+    "MOF_name": "Cu3(HAB)2",
+    "molecular_formula": "",
+    "source_paper": "10.1021/acs.accounts.4c00280",
+    "metal_node": {
+      "metal_connector": "Cu(II)",
+      "coordination": "",
+      "coordination_geometry": "",
+      "cluster_type": "",
+      "open_metal_site": ""
+    },
+    "ligand": {
+      "name": "hexaaminobenzene (HAB)",
+      "functional_groups": "amino",
+      "conformation": "planar"
+    },
+    "topology": "",
+    "Dimensionality": "",
+    "Crystal_system": "",
+    "Space_group": "",
+    "properties": [
+      {
+        "name": "electrical conductivity",
+        "values": [
+          {
+            "value": "2.9×10^-5",
+            "unit": "S cm^-1",
+            "conditions": "after defect healing"
+          }
+        ]
+      },
+      {
+        "name": "band gap",
+        "values": [
+          {
+            "value": "0.91",
+            "unit": "eV",
+            "conditions": "unspecified"
+          }
+        ]
+      }
+    ],
+    "characterization_data": {
+      "XRD": [
+        {
+          "fwhm": "0.69°",
+          "comment": "after defect healing"
+        }
+      ]
+    },
+    "synthesis_method": "Postsynthetic defect healing",
+    "reaction_conditions": {
+      "temperature": "unspecified",
+      "solvent": "unspecified",
+      "time": "unspecified"
+    },
+    "raw_materials": "Cu(II) salt, HAB linker",
+    "composition_structure": "",
+    "application": "Photocatalytic applications"
+  }
+]

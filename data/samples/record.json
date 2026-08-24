@@ -1,0 +1,191 @@
+{
+  "MOF_name": "NiCAT@TOW",
+  "molecular_formula": "",
+  "source_paper": "10.1016/j.ijbiomac.2023.127989",
+  "metal_node": {
+    "metal_connector": "Ni(II)",
+    "coordination": "",
+    "coordination_geometry": "",
+    "cluster_type": "",
+    "open_metal_site": ""
+  },
+  "ligand": {
+    "name": "2,3,6,7,10,11-Hexahydroxytriphenylene hydrate (HHTP)",
+    "functional_groups": "-OH",
+    "conformation": ""
+  },
+  "topology": "2D hexagonal lattice",
+  "Dimensionality": "2D",
+  "Crystal_system": "",
+  "Space_group": "",
+  "properties": [
+    {
+      "name": "electrical conductivity",
+      "values": [
+        {
+          "value": "4.227",
+          "unit": "S·m⁻¹",
+          "conditions": {
+            "concentration": "50%",
+            "form": "membrane"
+          }
+        },
+        {
+          "value": "0.164",
+          "unit": "S·m⁻¹",
+          "conditions": {
+            "concentration": "1%",
+            "form": "membrane"
+          }
+        }
+      ]
+    },
+    {
+      "name": "tensile strength",
+      "values": [
+        {
+          "value": "187.9",
+          "unit": "MPa",
+          "conditions": {
+            "concentration": "50%",
+            "form": "membrane"
+          }
+        }
+      ]
+    },
+    {
+      "name": "water contact angle",
+      "values": [
+        {
+          "value": "131.6",
+          "unit": "°",
+          "conditions": {
+            "concentration": "50%",
+            "form": "membrane"
+          }
+        }
+      ]
+    },
+    {
+      "name": "specific surface area",
+      "values": [
+        {
+          "value": "137.8",
+          "unit": "m²·g⁻¹",
+          "conditions": {
+            "concentration": "50%",
+            "form": "membrane"
+          }
+        }
+      ]
+    },
+    {
+      "name": "specific capacitance",
+      "values": [
+        {
+          "value": "109.9",
+          "unit": "F·g⁻¹",
+          "conditions": {
+            "current density": "0.5 A·g⁻¹"
+          }
+        },
+        {
+          "value": "53.1",
+          "unit": "F·g⁻¹",
+          "conditions": {
+            "current density": "1 A·g⁻¹"
+          }
+        },
+        {
+          "value": "26.0",
+          "unit": "F·g⁻¹",
+          "conditions": {
+            "current density": "2 A·g⁻¹"
+          }
+        },
+        {
+          "value": "18.9",
+          "unit": "F·g⁻¹",
+          "conditions": {
+            "current density": "5 A·g⁻¹"
+          }
+        },
+        {
+          "value": "8.1",
+          "unit": "F·g⁻¹",
+          "conditions": {
+            "current density": "10 A·g⁻¹"
+          }
+        }
+      ]
+    }
+  ],
+  "characterization_data": {
+    "XRD": [
+      {
+        "2theta": "4.6",
+        "hkl": "(100)",
+        "phase": "MOF"
+      },
+      {
+        "2theta": "9.4",
+        "hkl": "(200)",
+        "phase": "MOF"
+      },
+      {
+        "2theta": "12.5",
+        "hkl": "(210)",
+        "phase": "MOF"
+      },
+      {
+        "2theta": "27.5",
+        "hkl": "(002)",
+        "phase": "MOF"
+      }
+    ],
+    "FTIR": [
+      {
+        "wavenumber": "721",
+        "intensity": "",
+        "assignment": "Ni-O stretching vibration"
+      },
+      {
+        "wavenumber": "1213",
+        "intensity": "",
+        "assignment": "C-O stretching vibration"
+      },
+      {
+        "wavenumber": "1447",
+        "intensity": "",
+        "assignment": "C=C stretching vibration in aromatic ring"
+      },
+      {
+        "wavenumber": "3413",
+        "intensity": "",
+        "assignment": "O-H stretching vibration in aromatic ring"
+      }
+    ],
+    "XPS": [
+      {
+        "element": "Ni 2p",
+        "peak_position": "855.8",
+        "chemical_state": "Ni(II) in NiCAT layer"
+      },
+      {
+        "element": "Ni 2p",
+        "peak_position": "856.2",
+        "chemical_state": "Ni(II) at interface"
+      }
+    ]
+  },
+  "synthesis_method": "Electrostatic force-mediated interfacial growth followed by room-temperature densification",
+  "reaction_conditions": {
+    "sketch": "Hydrothermal process at 85 °C for 24 h",
+    "temperature": "85 °C",
+    "pressure": "10 MPa (for densification)",
+    "solvent": "DMF/water mixture"
+  },
+  "raw_materials": "Ni(NO3)2·6H2O, Ni(CH3COO)2·4H2O, HHTP, TEMPO-oxidized wood (TOW)",
+  "composition_structure": "NiCAT nanolayer on TOW scaffold",
+  "application": "wearable supercapacitors"
+}
