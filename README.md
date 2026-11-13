@@ -1,8 +1,6 @@
 # EC-MOF Data Pipeline
 
-> 中文简介：本项目用于整理电导型金属有机框架（electrically conductive
-> metal-organic frameworks, EC-MOFs）文献，将论文转换为可处理文本，抽取
-> MOF 结构、合成、表征和性能数据，并检查结构化记录是否得到原文支持。
+**English** · [简体中文](README_CN.md)
 
 EC-MOF Data Pipeline is a research-oriented workflow for building and validating
 structured data about electrically conductive metal-organic frameworks. It brings
