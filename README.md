@@ -4,8 +4,8 @@
 
 EC-MOF Data Pipeline is a research-oriented workflow for building and validating
 structured data about electrically conductive metal-organic frameworks. It brings
-together literature organization, PDF-to-Markdown conversion, MOF record
-normalization, and evidence-based validation.
+together PDF-to-Markdown conversion, MOF record normalization, and lexical
+evidence matching against locally held papers.
 
 The repository contains code and researcher-created structured data. Publisher
 PDFs, supplementary documents, extracted figures, and full-text article copies
@@ -20,10 +20,10 @@ still in progress.
 
 | Component | Status |
 | --- | --- |
-| Literature organization | Local workflow documented |
+| Literature organization by DOI | Planned; not implemented in this package |
 | PDF-to-Markdown conversion | Available as an optional feature |
 | Structured MOF records | 71-record draft snapshot included |
-| Exact and fuzzy validation | Available |
+| Exact and fuzzy (lexical) evidence matching | Available |
 | Transformer-based semantic validation | Legacy prototype; not yet packaged |
 | Command-line interface | Available |
 | Automated tests | Included |
@@ -33,12 +33,12 @@ chemical records until the validation status of each field has been reviewed.
 
 ## Goals
 
-- Organize EC-MOF literature using stable identifiers such as DOI.
+- Organize EC-MOF literature using stable identifiers such as DOI (planned).
 - Convert locally obtained papers into machine-readable text for private research.
 - Represent structural, synthetic, characterization, and property information in
   a consistent JSON schema.
-- Compare extracted values with source documents using exact, fuzzy, and semantic
-  matching.
+- Compare extracted values with source documents. Exact and fuzzy lexical matching
+  is implemented; semantic matching is planned.
 - Record validation evidence without inserting invalid comments into JSON files.
 - Produce a small, reproducible dataset that can be inspected and extended.
 
@@ -51,7 +51,7 @@ Local literature archive
 PDF text / Markdown extraction
         |
         v
-Structured MOF extraction
+Structured MOF extraction   (done upstream; not part of this package)
         |
         v
 Schema normalization
@@ -91,17 +91,34 @@ A normalized record is expected to contain the following top-level fields:
 }
 ```
 
-The cleanup process will standardize naming conventions, distinguish missing
-values from genuinely unspecified values, flatten accidentally nested records,
-and move validation errors into machine-readable metadata.
+The current `normalize` step flattens accidentally nested arrays, strips legacy
+`//error` markers while loading JSON, and rewrites each record with the expected
+fields first (missing fields become `null`; unexpected fields are kept after them).
+Standardizing naming conventions, distinguishing missing from genuinely unspecified
+values, and moving validation errors into machine-readable metadata are planned.
 
 ## Validation approach
 
-The current prototype combines several forms of evidence checking:
+The `validate` command performs lexical evidence matching only:
 
-1. Text normalization for punctuation, whitespace, and chemical formula variants.
-2. Exact and fuzzy matching against chunks extracted from the source paper.
-3. A configurable lexical threshold and explicit evidence report.
+1. Every document under `--papers` (`.md`, `.txt`, or `.pdf`) is read and split into
+   overlapping chunks (1,500 characters by default, 150-character overlap).
+2. Each non-empty string or numeric field of every record is normalized with
+   Unicode NFKC, case folding, and whitespace collapsing. Chemical-formula variants
+   and punctuation are not normalized further.
+3. A field scores 1.0 when the normalized value occurs verbatim in a chunk;
+   otherwise the score is the length of the longest common substring divided by the
+   length of the value (Python `difflib`). Fields at or above `--threshold`
+   (default 0.8) are reported as matched.
+
+Two consequences matter when reading the report:
+
+- All chunks from all supplied documents are pooled. A record is **not** restricted
+  to the paper named in its `source_paper` field, so a value can be matched by text
+  from a different paper. Pass only the relevant paper to `--papers` when checking a
+  single record.
+- Short values such as element symbols, single digits, or labels like `2D` match
+  almost any text and carry little evidential weight.
 
 The earlier prototype also experimented with a scientific-language transformer.
 That dependency-heavy path is not enabled in the first cleaned release and will be
@@ -116,11 +133,14 @@ manual review before publication or downstream scientific use.
 ```text
 ecmof-pipeline/
 ├── src/ecmof_pipeline/
-│   ├── literature.py
+│   ├── __main__.py
+│   ├── cli.py
 │   ├── convert.py
+│   ├── io.py
+│   ├── literature.py
 │   ├── normalize.py
-│   ├── validate.py
-│   └── cli.py
+│   ├── schema.py
+│   └── validate.py
 ├── data/
 │   ├── processed/
 │   │   └── ecmof.json
@@ -136,37 +156,44 @@ ecmof-pipeline/
 Create an isolated environment and install the package in editable mode:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ShunHao0626/ecmof-pipeline.git
 cd ecmof-pipeline
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install -e .
+python -m pip install -e .          # core: no third-party dependencies
+python -m pip install -e '.[pdf]'   # optional: PDF reading and conversion
 ```
 
-Core validation currently depends on packages including `numpy`, `torch`,
-`transformers`, `scipy`, `pdfplumber`, and fuzzy string-matching utilities.
-PDF conversion has additional optional dependencies such as PyMuPDF, MinerU, or
-`pymupdf4llm`.
+The core package (normalization and validation of Markdown or text sources) uses
+only the Python standard library. The optional `pdf` extra installs `pdfplumber`
+(PDF text extraction during validation) and `pymupdf4llm` (the `convert` command).
+No other conversion backend is currently supported.
 
 ## Command-line interface
 
 ```bash
-# Convert locally held papers to Markdown.
+# The installed console command `ecmof-pipeline` is equivalent to
+# `python -m ecmof_pipeline`.
+
+# Convert locally held papers to Markdown (requires the `pdf` extra).
 python -m ecmof_pipeline convert \
   --input /path/to/local/papers \
   --output /path/to/local/markdown
 
 # Normalize fragmented extraction files.
+# --input may be repeated; each value can be a JSON file or a directory.
 python -m ecmof_pipeline normalize \
-  --input data/raw \
+  --input /path/to/local/raw-json \
   --output data/processed/ecmof.json
 
 # Validate records against locally available source documents.
 python -m ecmof_pipeline validate \
   --data data/processed/ecmof.json \
   --papers /path/to/local/papers \
-  --report validation-report.json
+  --report validation-report.json \
+  --threshold 0.8 \
+  --chunk-size 1500
 ```
 
 ## Data and copyright policy
@@ -183,11 +210,14 @@ should be committed.
 ## Known limitations
 
 - The draft dataset still contains inconsistent value types and naming styles.
-- Some source fragments contain non-standard `//error` comments and require repair.
-- One draft aggregate contains an accidentally nested group of records.
-- Model-based similarity is evidence assistance, not scientific verification.
-- The original scripts contain platform-specific paths that must be removed.
-- Reproducibility depends on model versions and PDF text-extraction quality.
+- Some source fragments contain non-standard `//error` comments; `load_json`
+  strips them automatically, but the flagged values still need manual review.
+- Validation pools all supplied documents and does not check each record against
+  its own `source_paper` (see [Validation approach](#validation-approach)).
+- Lexical matching is evidence assistance, not scientific verification.
+- The `processed/ecmof.json` snapshot has been flattened to 71 records but has not
+  been deduplicated at DOI level (the records cite 21 distinct sources).
+- Reproducibility depends on PDF text-extraction quality.
 
 ## Reproducibility
 
@@ -195,7 +225,6 @@ Public releases should record:
 
 - Dataset version and checksum.
 - Schema version.
-- Transformer model and revision.
 - Matching thresholds.
 - PDF extraction backend and version.
 - Date of extraction and validation.
@@ -205,7 +234,7 @@ outputs should remain outside Git or be ignored through `.gitignore`.
 
 ## Contributing
 
-Contributions are welcome after the first cleaned release. Useful contributions
+Contributions are welcome. Useful contributions
 include schema discussions, validation tests, DOI corrections, extraction bug
 reports, and manually verified records. Do not submit copyrighted article files.
 
