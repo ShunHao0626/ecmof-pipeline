@@ -2,43 +2,28 @@
 
 **English** · [简体中文](README_CN.md)
 
-EC-MOF Data Pipeline is a research-oriented workflow for building and validating
-structured data about electrically conductive metal-organic frameworks. It brings
-together PDF-to-Markdown conversion, MOF record normalization, and lexical
-evidence matching against locally held papers.
+**Research problem.** Conductive metal-organic framework (EC-MOF) properties are reported across papers in inconsistent formats, making structured comparison and source checking laborious.
 
-The repository contains code and researcher-created structured data. Publisher
-PDFs, supplementary documents, extracted figures, and full-text article copies
-are intentionally excluded.
+I built a Python pipeline that normalizes extracted MOF records and locates candidate supporting text in source papers. The repository includes a **71-record research dataset citing 21 sources**, a draft schema, command-line tools, and tests. Its evidence report helps prioritize field-by-field scientific review.
 
-## Project status
+## Research artifacts
 
-This repository is the first cleaned release of an earlier research prototype. It
-provides a small command-line interface, tests, a draft JSON schema, and a
-mechanically repaired 71-record research snapshot. Scientific review of the data is
-still in progress.
+The workflow connects structured records to lexical evidence from locally held papers. These research annotations can then be reviewed field by field against the source.
 
 | Component | Status |
 | --- | --- |
-| Literature organization by DOI | Planned; not implemented in this package |
 | PDF-to-Markdown conversion | Available as an optional feature |
 | Structured MOF records | 71-record draft snapshot included |
 | Exact and fuzzy (lexical) evidence matching | Available |
-| Transformer-based semantic validation | Legacy prototype; not yet packaged |
 | Command-line interface | Available |
 | Automated tests | Included |
 
-Results should be treated as research annotations rather than authoritative
-chemical records until the validation status of each field has been reviewed.
-
 ## Goals
 
-- Organize EC-MOF literature using stable identifiers such as DOI (planned).
 - Convert locally obtained papers into machine-readable text for private research.
 - Represent structural, synthetic, characterization, and property information in
   a consistent JSON schema.
-- Compare extracted values with source documents. Exact and fuzzy lexical matching
-  is implemented; semantic matching is planned.
+- Compare extracted values with source documents through exact and fuzzy lexical matching.
 - Record validation evidence without inserting invalid comments into JSON files.
 - Produce a small, reproducible dataset that can be inspected and extended.
 
