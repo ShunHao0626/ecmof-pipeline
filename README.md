@@ -2,9 +2,9 @@
 
 **English** · [简体中文](README_CN.md)
 
-**Research problem.** Conductive metal-organic framework (EC-MOF) properties are reported across papers in inconsistent formats, making structured comparison and source checking laborious.
+This repository provides a Python pipeline for structuring literature-derived data on electrically conductive metal-organic frameworks (EC-MOFs). It normalizes extracted records and locates candidate supporting text in locally held source papers.
 
-I built a Python pipeline that normalizes extracted MOF records and locates candidate supporting text in source papers. The repository includes a **71-record research dataset citing 21 sources**, a draft schema, command-line tools, and tests. Its evidence report helps prioritize field-by-field scientific review.
+The repository includes a **71-record research dataset citing 21 sources**, a draft schema, command-line tools, and tests. Its evidence report supports field-by-field scientific review.
 
 ## Research artifacts
 
@@ -104,10 +104,6 @@ Two consequences matter when reading the report:
   single record.
 - Short values such as element symbols, single digits, or labels like `2D` match
   almost any text and carry little evidential weight.
-
-The earlier prototype also experimented with a scientific-language transformer.
-That dependency-heavy path is not enabled in the first cleaned release and will be
-reintroduced only with reproducible model pinning and tests.
 
 Automated matching can produce both false positives and false negatives. Chemical
 formulae, crystallographic values, units, and numeric property values should receive
